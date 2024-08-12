@@ -21,6 +21,7 @@ https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37
 [![](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/img-aichongshe-oss-demo.jpg)](https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37f4981955278d3532660e4934b6ad2)
 
 
-My similar Wechat miniprogram:
+## Relation
+Based on my first Wechat miniprogram:
 
 ![](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/mymx-miniprogram.jpg)
