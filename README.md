@@ -1,5 +1,5 @@
 # PetNote-oss
-A fully SwiftUI-based iOS app to record everything. (爱宠记)
+A fully SwiftUI-based iOS app to record everything.
 
 ## Demo
 Click the image to watch the demo video.
