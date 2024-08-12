@@ -14,7 +14,7 @@ A fully SwiftUI-based iOS app to record everything.
 - [ ] MapKit Search 
 
 ## Demo
-Demo and video course:
+Demo and the development video: 
 
 https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37f4981955278d3532660e4934b6ad2
 
