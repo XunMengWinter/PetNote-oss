@@ -23,4 +23,4 @@ https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37
 
 My similar Wechat miniprogram:
 
-[![](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/mymx-miniprogram.jpg)]
+![](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/mymx-miniprogram.jpg)
