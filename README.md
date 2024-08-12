@@ -2,13 +2,16 @@
 A fully SwiftUI-based iOS app to record everything.
 
 ## Features
-[x] DIY TabView
-[x] PageView Card
-[x] NukeUI lazy load image
-[x] Alamofire request network interface, upload images
-[x] 2 ScrollView  interactive
-[x] Background publish content
-[x] Login
+- [x] DIY TabView
+- [x] PageView Card
+- [x] Search from csv, list 
+- [x] NukeUI lazy load image
+- [x] Alamofire request network interface, upload images
+- [x] Login
+- [x] 2 ScrollView  interactive
+- [x] Background publish content
+- [x] MapKit add cover
+- [ ] MapKit Search 
 
 ## Demo
 Click the image to watch the demo video.
