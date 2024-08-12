@@ -1,0 +1,33 @@
+{
+  "originHash" : "c786ce0992737642b5ce8d2b29da67677d10e78eb582e4ac8748a31a278ed432",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "mantis",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/guoyingtao/Mantis.git",
+      "state" : {
+        "revision" : "ccc498ea429774d948a0a8aacacde207f7ffff48",
+        "version" : "2.21.0"
+      }
+    },
+    {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke",
+      "state" : {
+        "revision" : "311016d972aa751ae8ab0cd5897422ebe7db0501",
+        "version" : "12.7.3"
+      }
+    }
+  ],
+  "version" : 3
+}

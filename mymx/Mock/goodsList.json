@@ -1,0 +1,3662 @@
+{
+    "data": [
+        {
+            "_id": "b69f67c062bc305e09318862515b1764",
+            "type": 100,
+            "weight": 454,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "为猫与猫寻成猫配制的猫粮，百利冠能1:1",
+            "price": 3000,
+            "score": 98,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1656501237075.jpg"
+            ],
+            "name": "猫寻配方全价猫粮 1磅",
+            "stock": 10,
+            "brand": "猫与猫寻"
+        },
+        {
+            "_id": "4efa204964218b350000a25704722285",
+            "barcode": "",
+            "score": 97,
+            "stock": 10,
+            "weight": 2000,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1679919918422.jpg"
+            ],
+            "name": "鲜朗低温烘焙猫粮2kg",
+            "price": 14300,
+            "type": 100,
+            "brand": "鲜朗"
+        },
+        {
+            "_id": "253e6d5d65b73cb100ae5b8821190232",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "price": 30800,
+            "stock": 10,
+            "weight": 4800,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1715671068864.jpg"
+            ],
+            "name": "鲜朗低敏烘焙粮4.8kg",
+            "score": 96,
+            "type": 100
+        },
+        {
+            "_id": "cd045e75613b54ce0ccdbefe4de08ead",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631278193839.jpg"
+            ],
+            "name": "Instinct百利猫粮11磅（经典无谷鸡肉）",
+            "price": 36800,
+            "stock": 100,
+            "type": 100,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "weight": 4990,
+            "brand": "Instinct",
+            "score": 95
+        },
+        {
+            "_id": "2d44d6c2613b55250b85fe3b5c1381f5",
+            "price": 4000,
+            "stock": 10,
+            "type": 100,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "11磅散称，密封袋保存",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631278193839.jpg"
+            ],
+            "name": "Instinct百利猫粮1磅（经典无谷鸡肉）",
+            "weight": 454,
+            "brand": "Instinct",
+            "score": 95
+        },
+        {
+            "_id": "5b049cc861de988804dbe29a56909a74",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1641977988826.jpg"
+            ],
+            "name": "Instinct百利猫粮10磅（生鲜鸡）",
+            "price": 37000,
+            "stock": 100,
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "weight": 4540,
+            "score": 93,
+            "brand": "Instinct"
+        },
+        {
+            "_id": "b751f28065b73bcd090819e36d0a7c29",
+            "desc": "",
+            "type": 100,
+            "stock": 10,
+            "weight": 1600,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1706507207372.jpg"
+            ],
+            "name": "鲜朗低敏烘焙粮1.6kg",
+            "price": 12200,
+            "score": 93
+        },
+        {
+            "_id": "e62469b25fd3413e016e5c514313121b",
+            "name": "冠能幼猫粮1kg",
+            "price": 5000,
+            "stock": 100,
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "大包分装，密封袋保存",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718008605879.jpg"
+            ],
+            "weight": 1000,
+            "brand": "冠能",
+            "score": 92
+        },
+        {
+            "_id": "b45a21d55ffae4850452bc2f688ccefd",
+            "barcode": "",
+            "desc": "大包分装，密封袋保存",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718008629425.jpg"
+            ],
+            "name": "冠能成猫粮1kg",
+            "price": 5000,
+            "stock": 100,
+            "type": 100,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "weight": 1000,
+            "brand": "冠能",
+            "score": 87
+        },
+        {
+            "_id": "1526e12a601645c50185c9895f847b4a",
+            "price": 28900,
+            "stock": 10,
+            "type": 100,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "雀巢官方发货",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718008636333.jpg"
+            ],
+            "name": "冠能成猫粮7kg",
+            "weight": 7000,
+            "brand": "冠能",
+            "score": 86
+        },
+        {
+            "_id": "41ae62ef62020f060407995c4499794a",
+            "price": 8900,
+            "stock": 10,
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "全价全阶段冻干猫粮",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1644302747177.jpg"
+            ],
+            "name": "阿飞和巴弟 P86F 1.5kg",
+            "weight": 1500,
+            "brand": "阿飞和巴弟",
+            "score": 70
+        },
+        {
+            "_id": "8d1a732f664062df00aa71320eda8240",
+            "score": 0,
+            "stock": 10,
+            "weight": 2000,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1715495641414.jpg"
+            ],
+            "barcode": "",
+            "desc": "",
+            "name": "【疯狂动物城合作款】阿飞和巴弟猫粮E76冻干益生菌成幼猫通用",
+            "price": 8900,
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "233d1379654da3c209bf7e2c24168051",
+            "weight": 5500,
+            "barcode": "",
+            "desc": "新包装",
+            "name": "冠能成猫粮5.5kg",
+            "score": 0,
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1699586991826.jpg"
+            ],
+            "price": 22800,
+            "stock": 10,
+            "brand": "冠能"
+        },
+        {
+            "_id": "def1da45651133710421632302932ede",
+            "name": "江小傲全价无谷猫粮小袋装-牛肉味-500g",
+            "stock": 100,
+            "weight": 500,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "price": 2280,
+            "score": 0,
+            "type": 100,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1695626090115.jpg"
+            ],
+            "brand": "江小傲"
+        },
+        {
+            "_id": "233d13796511335f0414a97851bd7b21",
+            "name": "江小傲全价无谷猫粮小袋装-鸡肉味-500g",
+            "weight": 500,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "price": 2180,
+            "score": 0,
+            "stock": 100,
+            "type": 100,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1695626075991.jpg"
+            ],
+            "brand": "江小傲"
+        },
+        {
+            "_id": "f624ef406534be130061065958297f9a",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "price": 2280,
+            "stock": 100,
+            "type": 100,
+            "weight": 500,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1697955342685.jpg"
+            ],
+            "name": "江小傲幼猫奶糕猫粮-500g",
+            "score": 0,
+            "brand": "江小傲"
+        },
+        {
+            "_id": "b83aa8046530209f0020571f248cec02",
+            "barcode": "",
+            "desc": "",
+            "name": "江小傲烘焙粮1斤装",
+            "stock": 100,
+            "weight": 500,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "price": 1900,
+            "score": 0,
+            "type": 100,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1697652885850.jpg"
+            ],
+            "brand": "江小傲"
+        },
+        {
+            "_id": "8f4e14e964218a96001b98bb48b818f1",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1717749899152.jpg"
+            ],
+            "score": 0,
+            "stock": 10,
+            "type": 100,
+            "weight": 1500,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "纯福全价全期猫粮1.5kg",
+            "price": 7500,
+            "brand": "纯福"
+        },
+        {
+            "_id": "fc8e64656425394806b194e30819eb2c",
+            "type": 100,
+            "desc": "",
+            "price": 5500,
+            "score": 0,
+            "name": "纯福酶解鸡肉猫粮1kg",
+            "stock": 10,
+            "weight": 1000,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1680161085675.jpg"
+            ],
+            "brand": "纯福"
+        },
+        {
+            "_id": "5ca5d2676616a03a06ac2f6867be77f3",
+            "desc": "",
+            "name": "网易严选全价无谷冻干双拼猫粮2.0升级版2KG",
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712758838315.jpg"
+            ],
+            "price": 8600,
+            "score": 0,
+            "stock": 10,
+            "weight": 2000
+        },
+        {
+            "_id": "63ca5b136612892f0633039673b22b6a",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "price": 3000,
+            "score": 0,
+            "type": 100,
+            "desc": "公益猫粮",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712490787302.jpg"
+            ],
+            "name": "网易严选宠爱相伴猫粮1.8kg",
+            "stock": 1,
+            "weight": 1800
+        },
+        {
+            "_id": "c27d45aa645ca68d001df1075417293d",
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1683793539395.jpg"
+            ],
+            "stock": 10,
+            "name": "蓝氏猎鸟乳鸽猫粮1.5kg",
+            "price": 8600,
+            "score": 0,
+            "weight": 1500,
+            "brand": "蓝氏"
+        },
+        {
+            "_id": "852ee6c665817ea00001f1c448851573",
+            "name": "诚实一口P40猫粮1.5kg",
+            "type": 100,
+            "weight": 1500,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1702985372206.jpg"
+            ],
+            "price": 7900,
+            "score": 0,
+            "stock": 10,
+            "barcode": "",
+            "brand": "诚实一口"
+        },
+        {
+            "_id": "5ca5d26765fa7ce603651a3b56a6cf54",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710914786297.jpg"
+            ],
+            "name": "阿飞和巴弟E76猫粮600g",
+            "score": 0,
+            "type": 100,
+            "weight": 600,
+            "barcode": "",
+            "price": 3500,
+            "stock": 10
+        },
+        {
+            "_id": "b751f280659bd1ad0636e94f287b37e8",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "name": "高爷家全价烘焙猫粮1.5kg",
+            "type": 100,
+            "weight": 1500,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704710570508.jpg"
+            ],
+            "price": 8900,
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "09e78768659bc8be063c2a4f01c7c52b",
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "2.0升级版",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1721440968284.jpg"
+            ],
+            "name": "高爷家益生菌猫粮1.5kg",
+            "price": 7300,
+            "type": 100,
+            "weight": 1500
+        },
+        {
+            "_id": "8de6ebcc650404d1024919aa730f6fa1",
+            "barcode": "",
+            "name": "鲜朗低温烘焙猫粮6kg",
+            "score": 0,
+            "stock": 10,
+            "weight": 6000,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1694762190631.jpg"
+            ],
+            "price": 37800,
+            "type": 100,
+            "brand": "鲜朗"
+        },
+        {
+            "_id": "34e8707565df091c010779301eeecfab",
+            "price": 15200,
+            "stock": 10,
+            "type": 100,
+            "barcode": "",
+            "name": "鲜朗兔肉生骨肉冻干猫粮",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709115673402.jpg"
+            ],
+            "score": 0,
+            "weight": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": ""
+        },
+        {
+            "_id": "0dc816dd6458ea58001975ce66a3c0a6",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1683548757075.jpg"
+            ],
+            "name": "鲜朗冻干生骨肉猫粮300g",
+            "price": 13200,
+            "score": 0,
+            "type": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "stock": 10,
+            "weight": 300,
+            "brand": "鲜朗"
+        },
+        {
+            "_id": "b751f28065b2544e087e12bb4f1f584c",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1706185792854.jpg"
+            ],
+            "name": "鲜朗单一鸡肉源烘焙猫粮12.8kg（限江浙沪）",
+            "weight": 12800,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "stock": 10,
+            "type": 100,
+            "price": 69800,
+            "score": 0
+        },
+        {
+            "_id": "d91fe745647f3fbe0003a9db52313ca9",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1686060987591.jpg"
+            ],
+            "name": "鲜朗幼猫粮低温烘焙 1kg",
+            "stock": 10,
+            "weight": 1000,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "price": 8000,
+            "score": 0,
+            "type": 100,
+            "brand": "鲜朗"
+        },
+        {
+            "_id": "2b13da7f65f57436029fbfa169ffce50",
+            "score": 0,
+            "stock": 10,
+            "type": 100,
+            "weight": 2000,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710584884232.jpg"
+            ],
+            "name": "鲜朗烘焙猫粮～鱼肉配方",
+            "price": 15200
+        },
+        {
+            "_id": "80e3bed0658e21e80553d6bb3e471209",
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "price": 2980,
+            "score": 0,
+            "name": "鲜朗猫粮400g",
+            "type": 100,
+            "weight": 400,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1703813605054.jpg"
+            ],
+            "brand": "鲜朗"
+        },
+        {
+            "_id": "0601950566085bde0521abb67c274c9a",
+            "price": 700,
+            "score": 95,
+            "type": 150,
+            "weight": 95,
+            "desc": "纯鲜肉、手工制作 👍",
+            "name": "猫寻纯鲜主食罐 95g",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1720784841384.jpg"
+            ],
+            "stock": 100,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": ""
+        },
+        {
+            "_id": "a5782af765520ba7027911490bf76305",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1702370350322.jpg"
+            ],
+            "price": 1200,
+            "score": 95,
+            "stock": 1,
+            "type": 150,
+            "weight": 90,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "98%新鲜食材，0诱食剂",
+            "name": "猫寻鲜肉主食罐头 90g"
+        },
+        {
+            "_id": "9e7190f16180e476034c9a3b2cfeb220",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1652699529282.jpg"
+            ],
+            "name": "猫寻冻干～蛋黄冻干",
+            "price": 1500,
+            "stock": 50,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "score": 80
+        },
+        {
+            "_id": "fa24ce1a6180e49403b85174035299a4",
+            "price": 1200,
+            "stock": 50,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1663842134769.jpg"
+            ],
+            "name": "猫寻冻干～鸡肉粒冻干",
+            "score": 80
+        },
+        {
+            "_id": "fa24ce1a6180e45803b848ea538fea47",
+            "price": 1500,
+            "stock": 50,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1652699558272.jpg"
+            ],
+            "name": "猫寻冻干～鹌鹑冻干",
+            "score": 80
+        },
+        {
+            "_id": "324d33396638cc7900612672771c166e",
+            "desc": "",
+            "name": "【疯狂动物城合作款】阿飞和巴弟爪爪冻干鸡肉火龙果猫狗通用冻干",
+            "price": 3680,
+            "stock": 10,
+            "type": 150,
+            "weight": 64,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714998391152.jpg"
+            ],
+            "score": 0
+        },
+        {
+            "_id": "addca5a166378ef10050245a289354c7",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "price": 600,
+            "score": 0,
+            "stock": 10,
+            "type": 150,
+            "weight": 0,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714917102673.jpg"
+            ],
+            "name": "冻干猫草棒～5根"
+        },
+        {
+            "_id": "1f437e2e6421772e001baec727368f2f",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1679914793030.jpg"
+            ],
+            "stock": 100,
+            "weight": 0,
+            "desc": "",
+            "name": "冻干鲨鱼-猫磨牙冻干",
+            "price": 600,
+            "score": 0,
+            "type": 150
+        },
+        {
+            "_id": "f18e14fa65434a5704a579da203f9607",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "呼噜猫零食补水汤罐85g*3",
+            "score": 0,
+            "stock": 100,
+            "type": 150,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1698908752775.jpg"
+            ],
+            "price": 990,
+            "weight": 255
+        },
+        {
+            "_id": "7b7d01bc64bccc98001962037dced867",
+            "price": 3600,
+            "name": "小壳小轻松冻干猫草棒-猫咪化毛排毛",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690094741582.jpg"
+            ],
+            "score": 0,
+            "stock": 10,
+            "type": 150,
+            "weight": 40,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "169de3a164bce612000003e005dfc689",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690101264253.jpg"
+            ],
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "小轻松鱼油美毛冻干棒40g/桶",
+            "price": 4100,
+            "score": 0,
+            "weight": 40
+        },
+        {
+            "_id": "2fe57f6564be2e21000bf7ba4868066e",
+            "barcode": "",
+            "name": "尾巴生活液体猫草20ml*10杯",
+            "price": 2200,
+            "score": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690185245939.jpg"
+            ],
+            "stock": 10,
+            "type": 150,
+            "weight": 0,
+            "desc": ""
+        },
+        {
+            "_id": "14a8deea64be2e12008f8e6331e83c0f",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "price": 2200,
+            "type": 150,
+            "stock": 10,
+            "weight": 0,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690185231083.jpg"
+            ],
+            "name": "尾巴生活液体益生菌20ml*10杯",
+            "score": 0
+        },
+        {
+            "_id": "f5c93ac864be2e4f0004f18e163e52f6",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "美毛",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690185291361.jpg"
+            ],
+            "score": 0,
+            "barcode": "",
+            "name": "尾巴生活液体软磷脂20ml*10杯",
+            "price": 2200,
+            "stock": 10,
+            "type": 150,
+            "weight": 0
+        },
+        {
+            "_id": "c45ba8cc666e809d02fb78fe3ed21841",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "帕特兔小勺18g*10支～兔肉＋三种莓",
+            "score": 0,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718517900903.jpg"
+            ],
+            "price": 4500,
+            "stock": 10,
+            "type": 150,
+            "weight": 180
+        },
+        {
+            "_id": "7d8ff72c666e80ab02fc0c850a77295e",
+            "stock": 10,
+            "type": 150,
+            "weight": 180,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718517921303.jpg"
+            ],
+            "score": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "帕特兔小勺18g*10支～兔肉＋后生元",
+            "price": 4500
+        },
+        {
+            "_id": "71fb15f9666e807b02fe99502a1b85ef",
+            "name": "帕特兔小勺18g*10支～兔肉＋大麦草",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718517876277.jpg"
+            ],
+            "price": 4500,
+            "score": 0,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "weight": 180
+        },
+        {
+            "_id": "8d1a732f666e808b02fd039d7cb4a255",
+            "score": 0,
+            "type": 150,
+            "weight": 180,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "帕特兔小勺18g*10支～兔肉＋鹌鹑蛋黄",
+            "price": 4500,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718517887477.jpg"
+            ],
+            "stock": 10
+        },
+        {
+            "_id": "5ca5d26765e83f0201085c767252f2f9",
+            "weight": 50,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709719295755.jpg"
+            ],
+            "price": 900,
+            "score": 0,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "普瑞纳齿一生洁齿饼干猫口臭磨牙零食"
+        },
+        {
+            "_id": "0601950565e83f3a01070e8b4d501954",
+            "name": "普瑞纳齿一生洁齿饼干猫口臭磨牙零食",
+            "score": 0,
+            "type": 150,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709719295755.jpg"
+            ],
+            "price": 900,
+            "stock": 10,
+            "weight": 50,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "7d8ff72c666e77ec02fbbb7276186d88",
+            "price": 1900,
+            "stock": 10,
+            "type": 150,
+            "weight": 160,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718515689171.jpg"
+            ],
+            "name": "江小傲全价主食猫条16条装～兔肉味",
+            "score": 0,
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "57bdf48a666e77e00106316057906966",
+            "name": "江小傲全价主食猫条16条装～鸵鸟味",
+            "type": 150,
+            "weight": 160,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718515673964.jpg"
+            ],
+            "price": 1900,
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "0601950565e5868000b509295fbbe606",
+            "price": 1900,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709540988946.jpg"
+            ],
+            "name": "江小傲全价主食猫条16条装～鹿肉味",
+            "stock": 10,
+            "type": 150,
+            "weight": 160,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "score": 0
+        },
+        {
+            "_id": "09e78768659bc781063bec3a178bb4ef",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704707966359.jpg"
+            ],
+            "name": "江小傲全价主食罐混合口味100g*6",
+            "score": 0,
+            "stock": 10,
+            "barcode": "",
+            "desc": "",
+            "price": 5000,
+            "type": 150,
+            "weight": 600,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "5ca5d26765e6ec0000e134b36a550ea8",
+            "price": 4300,
+            "type": 150,
+            "weight": 100,
+            "barcode": "",
+            "desc": "",
+            "name": "江小傲全价猫粮冻干生骨肉饼5g*20",
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709632509897.jpg"
+            ]
+        },
+        {
+            "_id": "b009228f659bc5770002551260723bae",
+            "barcode": "",
+            "name": "江小傲猫罐头幼猫全价主食奶糕85g*6",
+            "stock": 10,
+            "type": 150,
+            "weight": 510,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704707441295.jpg"
+            ],
+            "price": 4800,
+            "score": 0,
+            "desc": ""
+        },
+        {
+            "_id": "8de6ebcc6534f7fb07fe281620309a68",
+            "name": "江小傲零食猫条-虾+鸡肉味",
+            "weight": 0,
+            "desc": "16支装",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1697970168659.jpg"
+            ],
+            "price": 1580,
+            "score": 0,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "b751f28065aa6fc307a1aeda76d235c2",
+            "stock": 5,
+            "weight": 120,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1705668538211.jpg"
+            ],
+            "name": "猫寻冻干~生骨肉全价冻干",
+            "price": 1200,
+            "score": 0,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "193a34d764749dbb0015095c266a48b7",
+            "weight": 600,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "price": 4300,
+            "score": 0,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1720854419986.jpg"
+            ],
+            "name": "纯福主食罐营养蓝猫布偶英短幼猫成猫湿粮猫咪零食全价猫罐头100g*6",
+            "stock": 5,
+            "type": 150
+        },
+        {
+            "_id": "7027b65465a623e0072ffda0324f8741",
+            "desc": "鸡、牛、三文鱼随机指定可备注",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1705386950849.jpg"
+            ],
+            "price": 1500,
+            "type": 150,
+            "weight": 100,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "纯福猫条~随机口味",
+            "score": 0,
+            "stock": 10,
+            "barcode": ""
+        },
+        {
+            "_id": "09e7876865a622f8073f8fd2424015d4",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "指定口味可备注",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1705386714204.jpg"
+            ],
+            "name": "纯福猫条混合口味（鸡牛三文鱼）*3",
+            "price": 3980,
+            "stock": 300,
+            "weight": 0,
+            "barcode": "",
+            "score": 0,
+            "type": 150
+        },
+        {
+            "_id": "5ca5d26766167a2d06a7fbc26da66f9b",
+            "name": "网易严选猫薄荷小鱼饼干清新口气磨牙",
+            "score": 0,
+            "type": 150,
+            "weight": 95,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712749098295.jpg"
+            ],
+            "price": 950,
+            "stock": 10
+        },
+        {
+            "_id": "5ca5d26766229e2c0801e95b23905959",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713544737611.jpg"
+            ],
+            "type": 150,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "萌宗宠物生日蛋糕礼盒6件装",
+            "price": 3980,
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "f18e14fa6523e86d01b1d58c7dcc5d80",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "蓝氏小鸟胃主食罐混合口味",
+            "score": 0,
+            "type": 150,
+            "barcode": "",
+            "desc": "50g*6",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1696852068372.jpg"
+            ],
+            "price": 3280,
+            "stock": 10,
+            "weight": 300
+        },
+        {
+            "_id": "c45ba8cc66795d69037f8c0c068524f7",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "score": 0,
+            "type": 150,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1719229796792.jpg"
+            ],
+            "name": "蓝氏猫条口味随机12g*5",
+            "price": 800,
+            "stock": 10,
+            "weight": 60
+        },
+        {
+            "_id": "2b13da7f661296b406305c756ab37f41",
+            "score": 0,
+            "type": 150,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712494256961.jpg"
+            ],
+            "price": 7900,
+            "desc": "",
+            "name": "阿飞主食冻干生骨肉粒小袋锁鲜40g*6-牛肉味",
+            "stock": 10,
+            "weight": 240,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "2b13da7f661296a706305aaa155201ca",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712494227412.jpg"
+            ],
+            "price": 7900,
+            "stock": 10,
+            "weight": 240,
+            "barcode": "",
+            "desc": "",
+            "name": "阿飞主食冻干生骨肉粒小袋锁鲜40g*6-鸡肉鳕鱼味",
+            "score": 0,
+            "type": 150
+        },
+        {
+            "_id": "a45325976638cc0e00605556433df05c",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "score": 0,
+            "type": 150,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714998263018.jpg"
+            ],
+            "name": "阿飞和巴弟厚乳奶包混合口味",
+            "price": 3800,
+            "stock": 10,
+            "weight": 360
+        },
+        {
+            "_id": "def1da456511603e042e70766bb8ec60",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1695637558765.jpg"
+            ],
+            "name": "阿飞和巴弟小飞盒一分为二80g",
+            "score": 0,
+            "type": 150,
+            "weight": 80,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "鸡牛三文鱼口味随机，可备注口味",
+            "price": 1000,
+            "stock": 10
+        },
+        {
+            "_id": "def1da4565116075042e788d311dfcbf",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1695637558765.jpg"
+            ],
+            "name": "阿飞和巴弟小飞盒一分为二80g*6",
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "混合口味（买五送一）",
+            "price": 5000,
+            "score": 0,
+            "weight": 480
+        },
+        {
+            "_id": "9fe3c0fd6640747c00ac49dc3bad1aea",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1715500147913.jpg"
+            ],
+            "name": "阿飞和巴弟幼猫主食奶糕餐包85g*3",
+            "stock": 10,
+            "weight": 255,
+            "barcode": "",
+            "desc": "",
+            "price": 2400,
+            "score": 0,
+            "type": 150
+        },
+        {
+            "_id": "39cd7d846411674b000bc14a2d65acea",
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1678862150800.jpg"
+            ],
+            "name": "阿飞和巴弟桶装猫条12口味齐全15g*48支猫零食纯肉补水营养",
+            "price": 8900,
+            "score": 0,
+            "stock": 10,
+            "weight": 720
+        },
+        {
+            "_id": "4abf351264ce00e30025350744fa0be4",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1691222238401.jpg"
+            ],
+            "name": "阿飞和巴弟猫条无添加15g*5三文鱼鳕鱼马鲛鱼随机发货",
+            "stock": 10,
+            "price": 800,
+            "score": 0,
+            "type": 150,
+            "weight": 75
+        },
+        {
+            "_id": "54f0ca7e6352a2d20010eec043ccef0c",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1666359993469.jpg"
+            ],
+            "name": "阿飞和巴弟猫罐头青春罐80g*6猫咪发腮营养零食罐头",
+            "score": 0,
+            "type": 150,
+            "barcode": "",
+            "desc": "6罐混合口味随机发货",
+            "price": 4600,
+            "stock": 10,
+            "weight": 480
+        },
+        {
+            "_id": "7d8ff72c66728bd90329ec183a9dd6e0",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "type": 150,
+            "weight": 280,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718782933574.jpg"
+            ],
+            "name": "阿飞和巴弟胡萝卜🥕酱包",
+            "price": 3980,
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "9c6f30ad6352a30f00097cd56ffae84d",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "阿飞和巴弟青春罐",
+            "score": 0,
+            "barcode": "",
+            "desc": "口味随机发货",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1666360071265.jpg"
+            ],
+            "price": 900,
+            "stock": 10,
+            "type": 150,
+            "weight": 80
+        },
+        {
+            "_id": "ce88f33765573b8802d8dd7226ab8ce0",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1700215639365.jpg"
+            ],
+            "name": "阿飞猫条6包装2牛2鸡2鱼",
+            "price": 4500,
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "type": 150,
+            "weight": 450,
+            "desc": "指定口味备注"
+        },
+        {
+            "_id": "a3df94cc66405d6900aa8f83387ac2dc",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1715494240071.jpg"
+            ],
+            "name": "阿飞迪士尼联名款超纯桶",
+            "price": 9000,
+            "score": 0,
+            "type": 150,
+            "barcode": "",
+            "desc": "",
+            "stock": 10,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "0601950565ed7ce1019e84781c6bdb9e",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710062814919.jpg"
+            ],
+            "name": "高爷家主食罐元动力鸽子味85g*8",
+            "type": 150,
+            "barcode": "",
+            "desc": "",
+            "price": 5500,
+            "score": 0,
+            "stock": 10,
+            "weight": 680
+        },
+        {
+            "_id": "0601950565ed7d16019e89d743b00fde",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "高爷家主食罐元动力鸽子味85g单个",
+            "price": 800,
+            "score": 0,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710062862811.jpg"
+            ],
+            "stock": 10,
+            "type": 150,
+            "weight": 85
+        },
+        {
+            "_id": "0b153f9a659bd2e2062f571743540927",
+            "stock": 10,
+            "type": 150,
+            "weight": 240,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704710832465.jpg"
+            ],
+            "price": 2990,
+            "desc": "",
+            "name": "高爷家全价主食餐盒40g*6鸭肉味",
+            "score": 0
+        },
+        {
+            "_id": "c45ba8cc666e7e5702fb5b5253e96751",
+            "stock": 10,
+            "name": "高爷家全价主食餐盒40g*6～幼猫奶昔",
+            "price": 2990,
+            "score": 0,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718517331413.jpg"
+            ],
+            "weight": 240
+        },
+        {
+            "_id": "80e3bed0659bd27b0664e34d2484c364",
+            "price": 2990,
+            "score": 0,
+            "stock": 10,
+            "weight": 240,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704710763067.jpg"
+            ],
+            "name": "高爷家全价猫主食餐盒40g*6鸡肉味",
+            "desc": "",
+            "type": 150
+        },
+        {
+            "_id": "6e4509e9666e79b302fc15d316b273f0",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718516139775.jpg"
+            ],
+            "price": 2200,
+            "score": 0,
+            "weight": 45,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "高爷家冻干美毛棒",
+            "stock": 10,
+            "type": 150
+        },
+        {
+            "_id": "3fa9b31265e32952006846862ceda07b",
+            "name": "高爷家洁齿磨牙棒冻干",
+            "price": 2200,
+            "weight": 37,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "洁牙清新口气",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709386063518.jpg"
+            ],
+            "type": 150,
+            "barcode": "",
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "63ca5b13661baa280731dc817f7a48e9",
+            "barcode": "",
+            "desc": "",
+            "price": 2500,
+            "score": 0,
+            "stock": 10,
+            "weight": 480,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713089020502.jpg"
+            ],
+            "name": "高爷家补水汤包鸡肉口味80g*6",
+            "type": 150
+        },
+        {
+            "_id": "63ca5b13661ba9d90731d4b947f310c7",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713088971918.jpg"
+            ],
+            "name": "高爷家补水汤包鸡肉口味80g/包",
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "price": 520,
+            "score": 0,
+            "weight": 80
+        },
+        {
+            "_id": "3fa9b31265e5845d00b7728d6420d48c",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709540442724.jpg"
+            ],
+            "price": 3200,
+            "weight": 480,
+            "barcode": "",
+            "desc": "",
+            "name": "高爷家补水罐鸡肉鸡心配方80g*6",
+            "score": 0,
+            "stock": 10,
+            "type": 150
+        },
+        {
+            "_id": "3fa9b31265e53ed400ad3d123c204bba",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "price": 1800,
+            "score": 0,
+            "stock": 10,
+            "type": 150,
+            "weight": 120,
+            "barcode": "",
+            "desc": "口味随机",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709522640854.jpg"
+            ],
+            "name": "高爷家零食猫条12g*10条"
+        },
+        {
+            "_id": "193a34d764743f7d0009c9ec21900436",
+            "stock": 10,
+            "type": 150,
+            "weight": 85,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "price": 990,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1685340014467.jpg"
+            ],
+            "name": "鲜朗主食罐口味随机单罐",
+            "score": 0,
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "339beebe6666f37200ba22cb3d61b758",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "stock": 10,
+            "type": 150,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718023019368.jpg"
+            ],
+            "name": "鲜朗主食餐包",
+            "price": 500,
+            "score": 0,
+            "weight": 50
+        },
+        {
+            "_id": "7fc34a846454d91b000e57e66db546e5",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "type": 150,
+            "weight": 600,
+            "stock": 10,
+            "desc": "混合口味",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1683282187657.jpg"
+            ],
+            "name": "鲜朗猫罐头主食罐成猫幼猫85g*6",
+            "price": 5500,
+            "score": 0
+        },
+        {
+            "_id": "0b153f9a659d538106530eca3e4836e3",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "price": 1200,
+            "type": 150,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704809342372.jpg"
+            ],
+            "name": "鲜朗鸡肉冻干零食",
+            "score": 0,
+            "stock": 10,
+            "weight": 30
+        },
+        {
+            "_id": "cd045e75611e1f7f069ea46b4a5ce37d",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1629364092006.jpg"
+            ],
+            "name": "ZIWI巅峰猫罐头185g（牛肉）",
+            "price": 3000,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA"
+        },
+        {
+            "_id": "2d44d6c2611e1f9d05f4d8446120c01c",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1629364121627.jpg"
+            ],
+            "name": "ZIWI巅峰猫罐头185g（鸡肉）",
+            "price": 3000,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": ""
+        },
+        {
+            "_id": "14139e12611e201b05ec7b9d51db02e6",
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1629364248803.jpg"
+            ],
+            "name": "ZIWI巅峰猫罐头85g（牛肉）",
+            "price": 1980
+        },
+        {
+            "_id": "2d44d6c2611e1fd405f4dfee2567b398",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1629364170780.jpg"
+            ],
+            "name": "ZIWI巅峰猫罐头85g（鸡肉）",
+            "price": 1980,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": ""
+        },
+        {
+            "_id": "9e7190f1617e1df502eb6d1e4a98bd13",
+            "stock": 100,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1635655155659.jpg"
+            ],
+            "name": "【活动】冻干鸡胸肉2袋",
+            "price": 7900
+        },
+        {
+            "_id": "18ed09686180e7a40302aa862004aa5a",
+            "name": "【活动】阿飞和巴第85g小罐主食罐12罐",
+            "price": 8500,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1635837812918.jpg"
+            ]
+        },
+        {
+            "_id": "79550af26034e6e406aecb317c35ae79",
+            "name": "冻干鸡小胸",
+            "price": 4500,
+            "stock": 100,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1614079710588.jpg"
+            ]
+        },
+        {
+            "_id": "2d44d6c2610fd08503c22abc57917a42",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1628426370297.jpg"
+            ],
+            "name": "冻干鹌鹑蛋黄",
+            "price": 990,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "14139e12615c038c113182e041ba0b17",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1633420169826.jpg"
+            ],
+            "name": "咕噜酱",
+            "price": 600,
+            "stock": 50,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "617ef50c620a46cf052dd3e76cf66c7d",
+            "desc": "洁牙冻干可磨牙",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1644840653738.jpg"
+            ],
+            "name": "小壳小白牙冻干猫咪零食猫咪用品鸡肉洁齿棒营养增肥除口臭35g",
+            "price": 2300,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "b1a52c595fd35e2c01a3a7534d0038fd",
+            "price": 1280,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687697931.jpg"
+            ],
+            "name": "山羊奶布丁幼猫"
+        },
+        {
+            "_id": "2a7b532a5fd35e38016427270fb618bd",
+            "price": 1280,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687734490.jpg"
+            ],
+            "name": "山羊奶布丁成猫"
+        },
+        {
+            "_id": "9f2a34705fe19a2c00618f7d0c423930",
+            "price": 300,
+            "stock": 100,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1608620586999.jpg"
+            ],
+            "name": "猫咪冻干肉饼"
+        },
+        {
+            "_id": "3fa9b3126613d3090659c46b6c339603",
+            "weight": 570,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/temp/img-chunxian-240614.jpg"
+            ],
+            "name": "猫寻纯鲜主食罐 95g*6",
+            "price": 3900,
+            "stock": 5,
+            "type": 150,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "纯鲜肉、全期全价 👍"
+        },
+        {
+            "_id": "b00064a76038aa8a0740cdbd18ad08c9",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1614326360783.jpg"
+            ],
+            "name": "绝魅鱼油",
+            "price": 5000,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "8937eaa9613f07f00acf783f44458b82",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631520750211.jpg"
+            ],
+            "name": "阿飞和巴弟全价主食ican猫罐头85g小罐三文鱼味",
+            "price": 800,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "cd045e75613f07dc0d5005763a9a0923",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1634296932516.jpg"
+            ],
+            "name": "阿飞和巴弟全价主食ican猫罐头85g小罐鸡肉味",
+            "price": 800,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "bf4a0bf261de82df054bf878048450e6",
+            "name": "阿飞和巴弟猫条无诱食剂15g*5支牛肉味",
+            "price": 800,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1641972439607.jpg"
+            ]
+        },
+        {
+            "_id": "54ad1eea61de82e705e43da154f5f45c",
+            "price": 800,
+            "stock": 10,
+            "type": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1641972439607.jpg"
+            ],
+            "name": "阿飞和巴弟猫条无诱食剂15g*5支鸡肉味"
+        },
+        {
+            "_id": "63ca5b1365e99ddb0130be775352b944",
+            "desc": "",
+            "price": 8600,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "score": 0,
+            "type": 200,
+            "weight": 350,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709809112581.jpg"
+            ],
+            "name": "MAG U+系列猫咪专用卵磷脂鱼籽酱磷虾蛋黄软磷脂350g"
+        },
+        {
+            "_id": "2b13da7f65e999e40130a12a2865108c",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709808094871.jpg"
+            ],
+            "name": "MAG【IFOS认证】深海猫用鱼油胶囊 100粒",
+            "weight": 0,
+            "barcode": "",
+            "price": 20800,
+            "score": 0,
+            "stock": 10,
+            "type": 200
+        },
+        {
+            "_id": "63ca5b1365e99986012fed9d54f012bd",
+            "barcode": "",
+            "name": "MAG乳铁蛋白 300mg/粒*60粒",
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "猫用提升免疫力少生病",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709808621358.jpg"
+            ],
+            "price": 35500,
+            "score": 0,
+            "type": 200,
+            "weight": 0
+        },
+        {
+            "_id": "2da1518365e99b9501305ba8478a1509",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1709808679990.jpg"
+            ],
+            "price": 9600,
+            "type": 200,
+            "weight": 120,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "MAG乳铁蛋白营养膏猫用120g",
+            "score": 0,
+            "stock": 10,
+            "desc": "有助猫咪增强免疫力"
+        },
+        {
+            "_id": "cf25ed5f64843e4400001402561c0110",
+            "name": "卫仕化毛膏120g猫咪专用幼猫维生素调理肠胃化毛球狗狗吐毛卫仕",
+            "price": 3800,
+            "type": 200,
+            "weight": 120,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1686388289383.jpg"
+            ],
+            "desc": "",
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "fc8e64656443c2dc098740ad79e3521c",
+            "desc": "猫咪贫血可用",
+            "name": "补血肝精-医院专供",
+            "price": 9800,
+            "type": 200,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1682162393847.jpg"
+            ],
+            "score": 0,
+            "stock": 10,
+            "weight": 0
+        },
+        {
+            "_id": "addca5a1663233cb001c6dc4649ef570",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714566090071.jpg"
+            ],
+            "score": 0,
+            "weight": 100,
+            "barcode": "",
+            "name": "诺普仕复合维生素b猫用防掉毛猫癣猫藓狗狗口炎宠物维生素液100ml",
+            "price": 9800,
+            "stock": 10,
+            "type": 200
+        },
+        {
+            "_id": "61a71b6e669b9e3500cd84621e5ab9fb",
+            "name": "诺普仕挪威深海鱼油145ml美毛护毛减少掉毛亮毛猫狗通用",
+            "type": 200,
+            "weight": 0,
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1721474608008.jpg"
+            ],
+            "price": 9900
+        },
+        {
+            "_id": "e8756b1f6454e6f3001138c318ae0394",
+            "name": "麦德氏化毛膏120g",
+            "price": 3800,
+            "type": 200,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1683285892200.jpg"
+            ],
+            "score": 0,
+            "stock": 10,
+            "weight": 120,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "2d44d6c261406ec00c4c139d51eaf480",
+            "price": 3000,
+            "stock": 3,
+            "type": 200,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631612604223.jpg"
+            ],
+            "name": "麦德士牛磺酸片保护心脏视力"
+        },
+        {
+            "_id": "14139e12613f097f0beca7c31caab1d3",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631521148121.jpg"
+            ],
+            "name": "麦德氏宠物益生菌猫咪肠胃宝",
+            "price": 1600,
+            "stock": 30,
+            "type": 200
+        },
+        {
+            "_id": "2d44d6c2613f09a50bf9022a5d57f70b",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631521184491.jpg"
+            ],
+            "name": "麦德氏益生菌猫咪肠胃调理幼猫呕吐腹泻拉稀便秘专用",
+            "price": 2600,
+            "stock": 30,
+            "type": 200,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "2a7b532a5fd34897016293862a87e12a",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607682188035.jpg"
+            ],
+            "name": "麦德氏维生素片",
+            "price": 3000,
+            "stock": 10,
+            "type": 200
+        },
+        {
+            "_id": "0bcbdde05fd34956011f3cd01dbe70b6",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607682385676.jpg"
+            ],
+            "name": "麦德氏羊奶粉",
+            "price": 4000,
+            "stock": 10,
+            "type": 200,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "2d44d6c2613f092d0bf899c15a651d61",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631521065147.jpg"
+            ],
+            "name": "麦德氏营养猫咪化毛球片120片去毛球",
+            "price": 3000,
+            "stock": 3,
+            "type": 200
+        },
+        {
+            "_id": "cd045e75611766ee05b6bdf35ab218cf",
+            "desc": "大宠爱，适用2.6~7.5kg",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1630003573894.jpg"
+            ],
+            "name": "大宠爱体内外同驱 0.75ml",
+            "price": 5900,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "score": 90,
+            "drug": true
+        },
+        {
+            "_id": "9e7190f1616897870016dc0f5856bbb3",
+            "price": 32800,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "大宠爱，适用2.6~7.5kg",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1634244462403.jpg"
+            ],
+            "name": "大宠爱体内外同驱 0.75ml*6支装",
+            "score": 88,
+            "drug": true
+        },
+        {
+            "_id": "e1b4a8166364771a0066d77f733cfbd9",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1667528469832.jpg"
+            ],
+            "name": "妙宠爱体内外同驱 1ml",
+            "type": 300,
+            "weight": 0,
+            "barcode": "",
+            "desc": "妙宠爱，适用5~10kg",
+            "stock": 6,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "price": 6500,
+            "score": 85,
+            "drug": true
+        },
+        {
+            "_id": "14139e126117673d051c974310c80a66",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1630003908301.jpg"
+            ],
+            "name": "海乐妙体内驱 56mg",
+            "price": 3200,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "海乐妙，适用2~8kg",
+            "score": 82,
+            "drug": true
+        },
+        {
+            "_id": "14139e12611766cc051c843c19244ee2",
+            "barcode": "",
+            "desc": "大宠爱，适用0~2.5kg",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1630003583184.jpg"
+            ],
+            "name": "大宠爱体内外同驱 0.25ml",
+            "price": 4200,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "score": 80,
+            "drug": true
+        },
+        {
+            "_id": "14139e126117673d051c9742113398e6",
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "海乐妙，适用0~2kg",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1630003916385.jpg"
+            ],
+            "name": "海乐妙体内驱 14mg",
+            "price": 2700,
+            "score": 79,
+            "drug": true
+        },
+        {
+            "_id": "f0cf4bf664a4d1730001f26f4639ac3d",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1688523114811.jpg"
+            ],
+            "name": "DCVET 那非普成猫体外驱 1ml * 3支",
+            "price": 3200,
+            "stock": 10,
+            "weight": 0,
+            "desc": "适用于4kg以上猫咪",
+            "barcode": "",
+            "score": 70,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA"
+        },
+        {
+            "_id": "b751f280656030d4008cc8d840b232ff",
+            "name": "WOAO化毛球猫草片助化毛排毛球护胃消食90片",
+            "price": 4200,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1700802768369.jpg"
+            ],
+            "score": 0,
+            "stock": 10,
+            "type": 300,
+            "barcode": ""
+        },
+        {
+            "_id": "8740f5ad635775260023b5fb083f2669",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1666676000883.jpg"
+            ],
+            "name": "dcvet那非普药浴",
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "price": 4000,
+            "score": 0,
+            "stock": 10,
+            "type": 300
+        },
+        {
+            "_id": "eee691ac6390bfde011321c157c01c7a",
+            "name": "多西环素1片",
+            "price": 350,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "猫咪感冒以及病毒感染使用",
+            "weight": 0,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1670430673028.jpg"
+            ],
+            "score": 0,
+            "type": 300,
+            "drug": true
+        },
+        {
+            "_id": "f866950864747d040007eece06b24c6e",
+            "barcode": "",
+            "desc": "",
+            "price": 2800,
+            "score": 0,
+            "stock": 10,
+            "type": 300,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1685355776103.jpg"
+            ],
+            "name": "小宠肤可安（黑下巴克星）"
+        },
+        {
+            "_id": "f18e14fa655b038f063c67387c5aebc0",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1700463474128.jpg"
+            ],
+            "name": "猫癣喷剂-碘伏80ml + 棉签",
+            "price": 800,
+            "type": 300,
+            "weight": 115,
+            "desc": "",
+            "score": 0,
+            "stock": 2
+        },
+        {
+            "_id": "8de6ebcc655b03d30a84fda06bfd15ca",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "溶液无色透明",
+            "price": 800,
+            "score": 0,
+            "type": 300,
+            "weight": 115,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1700463542416.jpg"
+            ],
+            "name": "猫癣喷剂-苦参80ml + 棉签",
+            "stock": 2
+        },
+        {
+            "_id": "b7820a8c6426b2d10015692042e33412",
+            "stock": 10,
+            "type": 300,
+            "desc": "12片",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1680257741991.jpg"
+            ],
+            "price": 1500,
+            "score": 0,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "name": "盐酸多西环素一盒"
+        },
+        {
+            "_id": "bf0fecc56390beea013ce5a41ce0ef58",
+            "desc": "猫咪感冒营养补充剂",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1670430438964.jpg"
+            ],
+            "price": 2500,
+            "score": 0,
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "name": "麦德氏赖氨酸",
+            "stock": 10,
+            "weight": 0
+        },
+        {
+            "_id": "1526e12a600a97c600636bb5579e8dd3",
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1611306921773.jpg"
+            ],
+            "name": "伊丽莎白棉头套-西瓜",
+            "price": 1300,
+            "stock": 1
+        },
+        {
+            "_id": "9f2a34705fdf0604003c76490c03bc71",
+            "desc": "猫咪拉稀呕吐时使用",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1608451578597.jpg"
+            ],
+            "name": "克痢肽",
+            "price": 4200,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "fa4fe87261a1b6ea00527b703c423993",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1637988073445.jpg"
+            ],
+            "name": "喂药器",
+            "price": 500,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "b00064a760309b0706053bbf670e1f7c",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1718440888111.jpg"
+            ],
+            "name": "小壳洁齿水小袋装一盒",
+            "price": 3000,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "清新猫咪口气，拒绝口臭，倒入水中即可"
+        },
+        {
+            "_id": "8937eaa9613f03b90acd842e7832e7b1",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631519668230.jpg"
+            ],
+            "name": "小白牙洁齿磨牙",
+            "price": 700,
+            "stock": 20,
+            "type": 300
+        },
+        {
+            "_id": "b8f1ea0261c30f5201b33c764438e158",
+            "name": "杜邦卫可5g（送喷壶）",
+            "price": 1000,
+            "stock": 5,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "兑水配满一壶即可，可有效消灭猫瘟病毒。粉色液体褪色后失效。",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1640173388250.jpg"
+            ]
+        },
+        {
+            "_id": "0288fce75fd34af4012f3576714b9323",
+            "barcode": "",
+            "desc": "一周一次消毒",
+            "images": [
+                "https://icemono.oss-cn-hangzhou.aliyuncs.com/images/trifectant2.jpg"
+            ],
+            "name": "杜邦卫可（5g*10袋，送喷壶）",
+            "price": 2500,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "cd045e75614b073e1020655d654d1022",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1632307003544.jpg"
+            ],
+            "name": "猫咪眼镜护理液",
+            "price": 700,
+            "stock": 10,
+            "type": 300
+        },
+        {
+            "_id": "8937eaa961406e440b1bd69331159558",
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1631612476940.jpg"
+            ],
+            "name": "绿十字化毛片",
+            "price": 5500,
+            "stock": 5
+        },
+        {
+            "_id": "2d44d6c2611ffe40062fc5287272451e",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1629486657293.jpg"
+            ],
+            "name": "艾贝儿癣力宁喷剂90ml",
+            "price": 4800,
+            "stock": 2,
+            "type": 300,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA"
+        },
+        {
+            "_id": "6127fe145fd34bf80169601147252e45",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1632195798267.jpg"
+            ],
+            "name": "速诺50mg*2片",
+            "price": 700,
+            "stock": 100,
+            "type": 300,
+            "drug": true
+        },
+        {
+            "_id": "79550af2605eec850c2dafdc7ae359b8",
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1640173263836.jpg"
+            ],
+            "name": "酒精500ml含喷壶",
+            "price": 1000,
+            "stock": 10
+        },
+        {
+            "_id": "eb0c51035fdf0406003ac68e71c2e5cb",
+            "name": "金盾香波宠物沐浴露",
+            "price": 3500,
+            "stock": 10,
+            "type": 300,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1683792149391.jpg"
+            ]
+        },
+        {
+            "_id": "3fa9b312661d8cd3076899195fba70ee",
+            "barcode": "",
+            "desc": "官方发货官方售后",
+            "name": "CATLIKE智能全自动猫砂盆Pro版",
+            "price": 102000,
+            "score": 0,
+            "type": 400,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713212493188.jpg"
+            ],
+            "stock": 10,
+            "weight": 0
+        },
+        {
+            "_id": "5ca5d267661d8a61076bfc2255c3eddd",
+            "name": "CATLINK智能烘干箱高配版",
+            "score": 0,
+            "stock": 10,
+            "weight": 0,
+            "desc": "官方直发，官方售后",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713211998573.jpg"
+            ],
+            "price": 102000,
+            "type": 400,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "63ca5b13661d8eff076c8ba7554e8e0e",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "赠两支滤芯官方直发并售后",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713213178496.jpg"
+            ],
+            "name": "CATLINK超滤宠物智能饮水机净水机UF款 ",
+            "barcode": "",
+            "price": 29900,
+            "score": 0,
+            "stock": 10,
+            "type": 400,
+            "weight": 0
+        },
+        {
+            "_id": "63ca5b13661d8f2c076c8ca75d833fdf",
+            "price": 35900,
+            "weight": 0,
+            "barcode": "",
+            "desc": "赠两支滤芯官方直发并售后",
+            "name": "CATLINK超滤宠物智能饮水机净水机UV款 ",
+            "score": 0,
+            "stock": 10,
+            "type": 400,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713213213415.jpg"
+            ]
+        },
+        {
+            "_id": "2da15183661a5f20071228d229354930",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713004311063.jpg"
+            ],
+            "price": 86000,
+            "stock": 10,
+            "type": 400,
+            "weight": 0,
+            "barcode": "",
+            "desc": "官方发货、官方售后",
+            "name": "catlink宠物智能烘干箱标配65L",
+            "score": 0
+        },
+        {
+            "_id": "2da15183661a5e8c071206e67c7263db",
+            "weight": 0,
+            "barcode": "",
+            "desc": "官方发货、官方售后",
+            "name": "catlink智能全自动猫砂盆ProX",
+            "stock": 10,
+            "type": 400,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713004166190.jpg"
+            ],
+            "price": 116000,
+            "score": 0
+        },
+        {
+            "_id": "2b13da7f661a606c070e5cbc54d20596",
+            "score": 0,
+            "stock": 10,
+            "type": 400,
+            "weight": 0,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "官方发货与售后",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713004649440.jpg"
+            ],
+            "name": "霍曼智能全自动猫砂盆特大号",
+            "price": 199900
+        },
+        {
+            "_id": "2cc84e266405cb4d0329e66b1771b512",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "35*24*65cm",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1678101201813.jpg"
+            ],
+            "type": 450,
+            "name": "恐龙猫爬架",
+            "price": 5200,
+            "score": 80,
+            "stock": 5,
+            "weight": 2300
+        },
+        {
+            "_id": "1db297d463edf985009568a14a252b30",
+            "desc": "到店免费安装",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1676540272473.jpg"
+            ],
+            "name": "趣味雪糕猫爬架",
+            "price": 12800,
+            "score": 80,
+            "stock": 2,
+            "weight": 0,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "type": 450
+        },
+        {
+            "_id": "de90ae1f64be28d1009261dd4abdc1dd",
+            "stock": 10,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "Kojima免洗手套6片装",
+            "score": 0,
+            "price": 1100,
+            "type": 450,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690183886667.jpg"
+            ]
+        },
+        {
+            "_id": "7769e02464be2843008566fb6e02646e",
+            "score": 0,
+            "stock": 10,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690183739680.jpg"
+            ],
+            "name": "Kojima免洗沐浴露190ml",
+            "desc": "",
+            "price": 1890,
+            "type": 450
+        },
+        {
+            "_id": "f624ef4065434e6e0183e47a6bed1c55",
+            "name": "kojima宠物护足膏防干裂",
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1698909802358.jpg"
+            ],
+            "price": 1800,
+            "score": 0,
+            "weight": 15
+        },
+        {
+            "_id": "dc49771c63df7a6201b7950716791b6f",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1675590239824.jpg"
+            ],
+            "price": 500,
+            "score": 0,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "仙人掌造型逗猫棒～绿色",
+            "stock": 10,
+            "type": 450,
+            "barcode": ""
+        },
+        {
+            "_id": "17d0551d63df7a6d01b4617835cbb41c",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1675590250284.jpg"
+            ],
+            "name": "仙人掌造型逗猫棒～蓝色",
+            "price": 500,
+            "stock": 10,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "score": 0,
+            "type": 450
+        },
+        {
+            "_id": "0ac4213c63df7a5701b77f285b4eb098",
+            "price": 500,
+            "score": 0,
+            "type": 450,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1675590212776.jpg"
+            ],
+            "name": "仙人掌造型逗猫棒～黄色",
+            "desc": "",
+            "stock": 10,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "80e3bed06569b2e901f0c60972e0a0c6",
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "尺寸40cm*40cm",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1701425883777.jpg"
+            ],
+            "price": 2600,
+            "name": "剑麻绳猫抓窝不掉屑-橘子款",
+            "score": 0,
+            "type": 450,
+            "weight": 0
+        },
+        {
+            "_id": "b83aa804653748f60099d04b260aa649",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1698121968512.jpg"
+            ],
+            "score": 0,
+            "type": 450,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "圆形猫抓板猫窝-M",
+            "price": 1280,
+            "stock": 10
+        },
+        {
+            "_id": "1c601768669b7faf00ccf58800d01968",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1721466789329.jpg"
+            ],
+            "name": "增量装kojima宠物湿巾100片",
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "score": 0,
+            "stock": 100,
+            "type": 450,
+            "desc": "香味随机发货",
+            "price": 900
+        },
+        {
+            "_id": "3fa9b31265f81c1e03189f89478d9f89",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710758937836.jpg"
+            ],
+            "name": "宠物尿垫-M单片",
+            "price": 60,
+            "type": 450,
+            "weight": 0,
+            "desc": "45*60cm",
+            "score": 0,
+            "stock": 50
+        },
+        {
+            "_id": "63ca5b1365f81eb6031e0b8d59b089a9",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "price": 30,
+            "type": 450,
+            "desc": "33*45cm",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710759598068.jpg"
+            ],
+            "name": "宠物尿垫-S单片",
+            "score": 0,
+            "stock": 100,
+            "weight": 0
+        },
+        {
+            "_id": "8de6ebcc6537532e0834d3b5708b6712",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "黄绿色随机发货指定颜色可备注",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1698124565242.jpg"
+            ],
+            "name": "宠物祛毛梳",
+            "weight": 0,
+            "barcode": "",
+            "price": 1500,
+            "score": 0,
+            "stock": 10,
+            "type": 450
+        },
+        {
+            "_id": "26a6ced1649960290006e8787d49ca13",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1687773221904.jpg"
+            ],
+            "name": "小佩落樱款猫包",
+            "score": 0,
+            "type": 450,
+            "barcode": "",
+            "price": 27100,
+            "stock": 10,
+            "weight": 0
+        },
+        {
+            "_id": "fc940a59634d21f700b66fb65cb0126b",
+            "type": 450,
+            "barcode": "",
+            "desc": "",
+            "name": "小壳宠物除臭剂小力士消毒液室内去尿味除菌喷雾猫狗尿消毒除味剂",
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1665999347002.jpg"
+            ],
+            "price": 2300,
+            "weight": 0
+        },
+        {
+            "_id": "7027b654656efb65022e3b2977221c0f",
+            "barcode": "",
+            "desc": "6-17斤可用（小奶猫备注可发s）",
+            "name": "小蜜蜂牵引绳-粉色",
+            "price": 1100,
+            "score": 0,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1701772129739.jpg"
+            ],
+            "stock": 10,
+            "weight": 0
+        },
+        {
+            "_id": "b751f280656efb5902399e6f50d015f0",
+            "desc": "6-17斤可用（小奶猫备注可发s）",
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1701772118601.jpg"
+            ],
+            "name": "小蜜蜂牵引绳-黄色",
+            "price": 1100,
+            "type": 450,
+            "weight": 0
+        },
+        {
+            "_id": "8212c3bc662fb07d0004a83641e11273",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714401383878.jpg"
+            ],
+            "price": 200,
+            "score": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "name": "弹簧猫玩具互动玩乐跳跳球四个装",
+            "stock": 10,
+            "type": 450,
+            "weight": 0
+        },
+        {
+            "_id": "8655d51b6389fc460150971c58c09759",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1669987393607.jpg"
+            ],
+            "score": 0,
+            "stock": 10,
+            "type": 450,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "懒人猫草罐头无土水培小麦猫零食除毛球盆栽套装铁罐猫草 ",
+            "price": 600
+        },
+        {
+            "_id": "0c12154264982c73000d202845008929",
+            "weight": 0,
+            "barcode": "",
+            "name": "猫包小粉山",
+            "stock": 10,
+            "price": 5500,
+            "score": 0,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "15斤内肥猫无忧",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1687694438536.jpg"
+            ]
+        },
+        {
+            "_id": "0b153f9a656f0be202333d476e5f7357",
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "猫咪斜口陶瓷碗~樱花粉",
+            "type": 450,
+            "stock": 10,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1701776349601.jpg"
+            ],
+            "price": 1780,
+            "score": 0
+        },
+        {
+            "_id": "09e78768656f0bee023eef3c74ccec05",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "price": 1780,
+            "stock": 10,
+            "weight": 0,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1701776362560.jpg"
+            ],
+            "name": "猫咪斜口陶瓷碗~牛油果绿",
+            "score": 0,
+            "type": 450
+        },
+        {
+            "_id": "8de6ebcc65211bea05af956a239baf87",
+            "score": 0,
+            "desc": "36*50cm",
+            "name": "猫咪毛毯垫子秋冬被子 ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1696668647207.jpg"
+            ],
+            "price": 1100,
+            "stock": 10,
+            "type": 450,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "3e2777a364982cf50001255251177e77",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1687694576059.jpg"
+            ],
+            "name": "猫咪浮毛梳",
+            "type": 450,
+            "weight": 0,
+            "barcode": "",
+            "desc": "亲测超好用",
+            "price": 1500,
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "93e4b6a06444f39d09ac105237866ada",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1682240407397.jpg"
+            ],
+            "price": 1200,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "猫咪牙刷牙膏套装去口臭可食用牙齿清洁产品",
+            "score": 0,
+            "stock": 10,
+            "type": 450
+        },
+        {
+            "_id": "0a18557863469b9b00769ee87f57ddb4",
+            "name": "猫咪牵引绳-粉色",
+            "price": 1500,
+            "weight": 0,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1665571710649.jpg"
+            ],
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "3ebc85cb63469c8700b07014760fa661",
+            "desc": "3-15斤通用",
+            "score": 0,
+            "weight": 0,
+            "name": "猫咪牵引绳-粉色蝴蝶结",
+            "price": 2100,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1665571972099.jpg"
+            ]
+        },
+        {
+            "_id": "6f1c6d4163469bac00b5e7877644d3e2",
+            "type": 450,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1665571754112.jpg"
+            ],
+            "name": "猫咪牵引绳-蓝色",
+            "price": 1500,
+            "score": 0,
+            "stock": 10,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "63ca5b13661e63070786ee4b626e1bdf",
+            "price": 650,
+            "stock": 10,
+            "type": 450,
+            "weight": 0,
+            "barcode": "",
+            "desc": "黄粉随机发货指定颜色可备注",
+            "name": "猫咪狗狗指甲剪",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1713267443118.jpg"
+            ],
+            "score": 0
+        },
+        {
+            "_id": "21f8dd5b63df442c01b9705f47f6251a",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "440*215*40mm",
+            "name": "猫抓板-直板款",
+            "stock": 10,
+            "weight": 0,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1690433646763.jpg"
+            ],
+            "price": 500,
+            "score": 0,
+            "type": 450
+        },
+        {
+            "_id": "6842667962dbd4a909d0ed8e687b639c",
+            "score": 0,
+            "stock": 5,
+            "barcode": "",
+            "price": 2900,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1658573968101.jpg"
+            ],
+            "name": "猫抓板猫屋～有猫冰品屋粉",
+            "type": 450,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": ""
+        },
+        {
+            "_id": "b69f67c062dbd4c90c23e1cf28a1bec0",
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "name": "猫抓板猫屋～有猫咖啡屋绿",
+            "price": 2900,
+            "score": 0,
+            "stock": 5,
+            "weight": 0,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1658574014014.jpg"
+            ]
+        },
+        {
+            "_id": "058dfefe62dbd4ba0ed07a99048d486d",
+            "barcode": "",
+            "desc": "",
+            "price": 2900,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1658573996764.jpg"
+            ],
+            "name": "猫抓板猫屋～有猫杂货屋紫",
+            "score": 0,
+            "stock": 5,
+            "type": 450,
+            "weight": 0
+        },
+        {
+            "_id": "5ca5d26766000133042d8e820c8f3f12",
+            "desc": "",
+            "price": 1100,
+            "score": 0,
+            "weight": 0,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1711276337488.jpg"
+            ],
+            "name": "猫转盘带弹簧漏食球 逗猫自嗨玩具",
+            "stock": 10
+        },
+        {
+            "_id": "a34d0a1f64cb1d59005b617a5992c645",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "name": "神火S11-H伍德氏灯猫藓检测365NM紫光灯",
+            "stock": 1,
+            "type": 450,
+            "weight": 0,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1691032917818.jpg"
+            ],
+            "price": 2900,
+            "score": 0
+        },
+        {
+            "_id": "e8da0808662f56dc0003d34359585c4f",
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714378457590.jpg"
+            ],
+            "name": "网易严选宠物除臭香氛去尿味神器～雾撞山野",
+            "price": 1300,
+            "score": 0,
+            "stock": 10,
+            "barcode": "",
+            "weight": 0
+        },
+        {
+            "_id": "9fcadd61662f56c10000065b70284dff",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "name": "网易严选宠物除臭香氛去尿味神器～香甜白桃",
+            "stock": 10,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714378412399.jpg"
+            ],
+            "price": 1300,
+            "score": 0,
+            "type": 450,
+            "weight": 0
+        },
+        {
+            "_id": "233d137965374a1f0824326e29380278",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1698122267980.jpg"
+            ],
+            "name": "胡萝卜s-猫咪玩具磨牙啃咬",
+            "score": 0,
+            "stock": 10,
+            "type": 450,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "price": 500
+        },
+        {
+            "_id": "6f49505e6262c08901ba9ed92b95a178",
+            "desc": "33*28*42cm",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1650638976262.jpg"
+            ],
+            "name": "太空舱猫包（星空）",
+            "price": 5500,
+            "stock": 2,
+            "type": 450,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": ""
+        },
+        {
+            "_id": "5464a2946262c0d1022e7e3f403ed309",
+            "name": "太空舱猫包（白色）",
+            "price": 5500,
+            "stock": 2,
+            "type": 450,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "33*28*42cm",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1650639016298.jpg"
+            ]
+        },
+        {
+            "_id": "79550af26048ee95095c7c866a94e154",
+            "price": 600,
+            "stock": 100,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "洗澡后使用，梳毛结使用",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1615392400514.jpg"
+            ],
+            "name": "密齿岗梳"
+        },
+        {
+            "_id": "2c9907ee6261b34a00c2e25023b74585",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1650570053192.jpg"
+            ],
+            "name": "封闭式可折叠猫砂盆（粉色）",
+            "price": 8500,
+            "stock": 2,
+            "type": 450,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": ""
+        },
+        {
+            "_id": "5464a2946261b35e01e11c127e298f57",
+            "type": 450,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1650570074446.jpg"
+            ],
+            "name": "封闭式可折叠猫砂盆（蓝色）",
+            "price": 8500,
+            "stock": 2
+        },
+        {
+            "_id": "28ee4e3e60cf95e323dffd6a4b72a130",
+            "name": "小佩新风猫包-月牙白",
+            "price": 20900,
+            "stock": 2,
+            "type": 450,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1624217050929.jpg"
+            ]
+        },
+        {
+            "_id": "2a7b532a5fd35e9001642df64cb09cc8",
+            "price": 500,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687821849.jpg"
+            ],
+            "name": "木杆逗猫棒-小鸡"
+        },
+        {
+            "_id": "0288fce75fd35e9401307eb52dd6ac78",
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687826818.jpg"
+            ],
+            "name": "木杆逗猫棒-老鼠",
+            "price": 500,
+            "stock": 10
+        },
+        {
+            "_id": "2a7b532a5fd35e6701642acc64897715",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687777945.gif"
+            ],
+            "name": "毛线球",
+            "price": 300,
+            "stock": 100,
+            "type": 450
+        },
+        {
+            "_id": "79550af26048ee35095c771665d48382",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1615392307880.jpg"
+            ],
+            "name": "猫咪不倒翁",
+            "price": 320,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "8937eaa961279196067bf7710f99552f",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1629983123837.jpg"
+            ],
+            "name": "猫咪指甲剪",
+            "price": 600,
+            "stock": 30,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "2a7b532a5fd35e5d01642a1b469fae97",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687766367.jpg"
+            ],
+            "name": "猫咪毛绒弹力球",
+            "price": 300,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "859059a561801aa8033b312d7f99345e",
+            "price": 500,
+            "stock": 100,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1635785378070.jpg"
+            ],
+            "name": "猫咪磨牙棒"
+        },
+        {
+            "_id": "28ee4e3e6053481e0b5c41396712d1a0",
+            "price": 2800,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1616070653550.jpg"
+            ],
+            "name": "猫砂盆-L"
+        },
+        {
+            "_id": "b00064a7605348060aabaf12452a13cb",
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1616070653550.jpg"
+            ],
+            "name": "猫砂盆-s",
+            "price": 1900,
+            "stock": 10
+        },
+        {
+            "_id": "9f2a34705feaec2900e940420afc819c",
+            "name": "猫碗护颈喝水碗",
+            "price": 1500,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1609231398015.jpg"
+            ]
+        },
+        {
+            "_id": "859059a56178f0a302568a0a1593b70f",
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1635315874185.jpg"
+            ],
+            "name": "维克耳漂宠物犬猫滴耳液消炎止痒清洁耳螨",
+            "price": 5200,
+            "stock": 10
+        },
+        {
+            "_id": "41ae62ef622b02110baaefae64811b84",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1646985742303.jpg"
+            ],
+            "name": "自嗨四层猫转盘",
+            "price": 1500,
+            "stock": 8,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "1526e12a600a95e100633e923d5b66b9",
+            "price": 500,
+            "stock": 10,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1611306462151.jpg"
+            ],
+            "name": "超长款逗猫棒"
+        },
+        {
+            "_id": "2a7b532a5fd35f3301643a3645d4423c",
+            "stock": 100,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1607687985420.jpg"
+            ],
+            "name": "轻羽毛逗猫棒-粉色",
+            "price": 500
+        },
+        {
+            "_id": "73f70d5c5fe197d5005072ec75e58d90",
+            "name": "轻羽毛逗猫棒-蓝色",
+            "price": 600,
+            "stock": 100,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1608619976111.jpg"
+            ]
+        },
+        {
+            "_id": "cbddf0af60e9812b15f8d44d44d61d79",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1625915688645.jpg"
+            ],
+            "name": "逗猫神器",
+            "price": 380,
+            "stock": 100,
+            "type": 450,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "fc8e646563f183c500ec96d16d89337c",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710939694565.jpg"
+            ],
+            "price": 1600,
+            "score": 85,
+            "type": 500,
+            "desc": "2mm豆腐混合猫砂，限收货地为江浙沪皖",
+            "name": "优选猫砂2.4kg",
+            "stock": 100,
+            "weight": 80
+        },
+        {
+            "_id": "2f6ab8515fe19747004c8b7a42ad1222",
+            "name": "猫殿下消臭珠（猫砂通用）",
+            "price": 2200,
+            "stock": 10,
+            "type": 500,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1608619845505.jpg"
+            ],
+            "score": 60
+        },
+        {
+            "_id": "2b13da7f66289dff08ae2de6754a95a4",
+            "type": 500,
+            "weight": 0,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1714824704574.jpg"
+            ],
+            "name": "N1豆腐猫砂线下款 8L",
+            "price": 3500,
+            "score": 0,
+            "stock": 10,
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "0bf1d874635f798e004c199347fc1c3a",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1667201415268.jpg"
+            ],
+            "name": "pidan豆腐混合猫砂 2.4kg",
+            "score": 0,
+            "weight": 2400,
+            "barcode": "",
+            "price": 2500,
+            "stock": 10,
+            "type": 500
+        },
+        {
+            "_id": "f624ef4065375a7200990ce05e32252e",
+            "price": 1280,
+            "weight": 2400,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1698126446478.jpg"
+            ],
+            "name": "优选猫砂2.4kg到店自提",
+            "score": 0,
+            "stock": 100,
+            "type": 500,
+            "barcode": "",
+            "desc": ""
+        },
+        {
+            "_id": "867d407465eefb7f00012f300d446a10",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "price": 10800,
+            "stock": 10,
+            "type": 550,
+            "weight": 2000,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/mall-cover/17032687690720.jpg"
+            ],
+            "name": "鲜朗低温烘焙全期狗粮2kg",
+            "score": 95
+        },
+        {
+            "_id": "63ca5b1365f970df034a5ccd35093f0d",
+            "price": 2500,
+            "score": 0,
+            "weight": 0,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710846173088.jpg"
+            ],
+            "name": "汪爸爸鸡肉薄片狗鲜肉磨牙",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "stock": 10,
+            "type": 550
+        },
+        {
+            "_id": "63ca5b1365fa7ca3036738840c20ee72",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710914705780.jpg"
+            ],
+            "name": "阿飞和巴弟狗粮鸡肉牛肉味",
+            "price": 8900,
+            "score": 0,
+            "stock": 10,
+            "type": 550,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "desc": "",
+            "weight": 2000
+        },
+        {
+            "_id": "0375964d64e0535701a582ee3cf153ec",
+            "desc": "购买后请自助取货",
+            "name": "摊位商品一份",
+            "stock": 5,
+            "weight": 0,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1693053077597.jpg"
+            ],
+            "price": 1280,
+            "score": 99,
+            "type": 600
+        },
+        {
+            "_id": "09e787686560c03e00aab4b7682b082b",
+            "score": 85,
+            "type": 600,
+            "weight": 0,
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1700839483757.jpg"
+            ],
+            "name": "怡宝纯净水 555ml*1瓶",
+            "stock": 5,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "",
+            "price": 200
+        },
+        {
+            "_id": "0b153f9a6560c00600a30e2768e402ae",
+            "stock": 5,
+            "type": 600,
+            "desc": "",
+            "score": 85,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712090144126.jpg"
+            ],
+            "name": "特仑苏纯牛奶 250ml*1盒",
+            "price": 500,
+            "weight": 0,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": ""
+        },
+        {
+            "_id": "2da1518365faba16036ee6874672a056",
+            "score": 85,
+            "type": 600,
+            "weight": 0,
+            "barcode": "",
+            "price": 600,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712090869586.jpg"
+            ],
+            "name": "雀巢咖啡 268ml*1瓶",
+            "stock": 3,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": ""
+        },
+        {
+            "_id": "63ca5b13660c709a059c5f743ba4fe2c",
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1712091192238.jpg"
+            ],
+            "price": 600,
+            "weight": 250,
+            "barcode": "",
+            "name": "红牛 250ml*1罐",
+            "score": 84,
+            "stock": 5,
+            "type": 600
+        },
+        {
+            "_id": "b751f2806560c2cb00aaf8cc3dd7fb2f",
+            "barcode": "",
+            "price": 50,
+            "score": 80,
+            "stock": 10,
+            "type": 600,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "desc": "口味随机",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1700840134782.jpg"
+            ],
+            "name": "卫龙辣条 12g*1包",
+            "weight": 0
+        },
+        {
+            "_id": "3fa9b31265ed943101a227c26c29637e",
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710068783882.jpg"
+            ],
+            "name": "手提帆布袋～麦田与柏树",
+            "price": 2000,
+            "type": 600,
+            "weight": 0,
+            "barcode": "",
+            "desc": "",
+            "score": 0,
+            "stock": 10
+        },
+        {
+            "_id": "80e3bed0659d50ed06886ac310f2c5a9",
+            "barcode": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704808680646.jpg"
+            ],
+            "type": 600,
+            "stock": 10,
+            "weight": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "name": "纯福全期幼猫粮试吃装50g*3",
+            "price": 780,
+            "score": 0
+        },
+        {
+            "_id": "80e3bed0659d50d7068869263798cd0c",
+            "price": 780,
+            "score": 0,
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704808660222.jpg"
+            ],
+            "barcode": "",
+            "desc": "",
+            "name": "纯福全期猫粮试吃装50g*3",
+            "stock": 10,
+            "type": 600,
+            "weight": 150,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ"
+        },
+        {
+            "_id": "b83aa8046530228200205e9c1f64706e",
+            "weight": 0,
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1697653375228.jpg"
+            ],
+            "name": "纯福抑菌定量粮勺",
+            "price": 1680,
+            "score": 0,
+            "stock": 10,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "type": 600
+        },
+        {
+            "_id": "b751f280659d5260065c1bef6d6c4316",
+            "type": 600,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": "",
+            "name": "鲜朗全期烘焙猫粮试吃50g*3",
+            "price": 980,
+            "stock": 10,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1704809054228.jpg"
+            ],
+            "score": 0,
+            "weight": 150
+        },
+        {
+            "_id": "cf009cef64bb4f2a006d43780f0d4c01",
+            "weight": 0,
+            "name": "鲜朗鱼尾粮勺",
+            "score": 0,
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1689997094977.jpg"
+            ],
+            "price": 1990,
+            "stock": 10,
+            "type": 600,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "barcode": ""
+        },
+        {
+            "_id": "5ca5d26765ed949901a1be402aaf50e4",
+            "barcode": "",
+            "stock": 10,
+            "weight": 0,
+            "price": 2000,
+            "score": 0,
+            "type": 600,
+            "_openid": "oWXAc41LIGyAzGOciY-S8VvYO8jQ",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1710068861574.jpg"
+            ],
+            "name": "黑胶晴雨伞～桃夭"
+        },
+        {
+            "_id": "c462c81061b1a68c0154c7f55c1a19a7",
+            "stock": 10,
+            "type": 600,
+            "_openid": "oWXAc4yj2fha5zYeLHcFUYCBW4rA",
+            "barcode": "",
+            "desc": "",
+            "images": [
+                "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/goods/1639032450486.jpg"
+            ],
+            "name": "衣物/萌宠 除尘粘毛器（300撕）",
+            "price": 990
+        }
+    ],
+    "banner": [
+        {
+            "title": "猫寻小布偶",
+            "imageUrl": "https://6963-icemono-1giecaaj02676f6a-1304448608.tcb.qcloud.la/images/banner/img_gg5280mm.JPG?sign=5b23ecfdc1d68cd4160d888627521c53&t=1722019551",
+            "url": "/pages/meow/meow"
+        },
+        {
+            "title": "纯鲜主食罐",
+            "imageUrl": "https://6963-icemono-1giecaaj02676f6a-1304448608.tcb.qcloud.la/images/banner/img-chunxian.jpg?sign=d36b4c02d6c7344b9d1f670e66d9cc84&t=1720734141",
+            "url": "/pages/shop/detail/detail?goodsId=0601950566085bde0521abb67c274c9a"
+        },
+        {
+            "title": "养猫交流群 🎀",
+            "imageUrl": "cloud://icemono-1giecaaj02676f6a.6963-icemono-1giecaaj02676f6a-1304448608/images/banner/buding-floor.jpg",
+            "url": "/pages/webView/web-view?params=%7B%22httpUrl%22%3A%22https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FuQFqKKoYN1B2zD0PQn2ZWg%22%2C%22title%22%3A%22%E7%8C%AB%E4%B8%8E%E7%8C%AB%E5%AF%BBzZ%22%7D"
+        }
+    ],
+    "searchHints": [
+        {
+            "key": "猫寻",
+            "value": "猫寻"
+        },
+        {
+            "key": "罐头",
+            "value": "罐"
+        },
+        {
+            "key": "鲜朗",
+            "value": "鲜朗"
+        },
+        {
+            "key": "洁齿",
+            "value": "洁齿"
+        },
+        {
+            "key": "驱虫",
+            "value": "驱"
+        }
+    ],
+    "updateTime": 1722085604051
+}
