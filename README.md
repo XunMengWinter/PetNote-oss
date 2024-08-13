@@ -9,6 +9,7 @@ A fully SwiftUI-based iOS app to record everything.
 - [x] [Alamofire](https://github.com/Alamofire/Alamofire) request network interface, upload images
 - [x] PhotosUI select image and [Mantis](https://github.com/guoyingtao/Mantis) crop image
 - [x] Login with E-mail
+- [x] Dark Mode 
 - [x] 2 ScrollView  interactive
 - [x] Background publish content
 - [x] MapKit add cover
