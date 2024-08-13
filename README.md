@@ -6,11 +6,9 @@ A fully SwiftUI-based iOS app to record everything.
 
 ## Development Video
 
-Bilibili
-https://www.bilibili.com/video/BV1Q4421S7Bx/?spm_id_from=333.788&vd_source=800ea2df109ad80da13283ad7be008b2
+[Watch on Bilibili](https://www.bilibili.com/video/BV1Q4421S7Bx/)
 
-YouTube
-https://www.youtube.com/watch?v=qk0rBed6c0I&list=PLCP85FHIjaiqtxC1dRy1e6OJHKoKkY6rh&index=1
+[Watch on YouTube](https://www.youtube.com/watch?v=qk0rBed6c0I&list=PLCP85FHIjaiqtxC1dRy1e6OJHKoKkY6rh&index=1)
 
 
 
