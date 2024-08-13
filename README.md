@@ -24,7 +24,7 @@ YouTube
 
 https://www.youtube.com/watch?v=qk0rBed6c0I&list=PLCP85FHIjaiqtxC1dRy1e6OJHKoKkY6rh&index=1
 
-[![](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/img-aichongshe-oss-demo.jpg)](https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37f4981955278d3532660e4934b6ad2)
+[![](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/img-aichongshe-oss-demo.jpg)]
 
 
 
