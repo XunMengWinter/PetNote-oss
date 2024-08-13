@@ -8,7 +8,7 @@ A fully SwiftUI-based iOS app to record everything.
 - [x] [NukeUI](https://github.com/kean/Nuke) lazy load image
 - [x] [Alamofire](https://github.com/Alamofire/Alamofire) request network interface, upload images
 - [x] PhotosUI select image and [Mantis](https://github.com/guoyingtao/Mantis) crop image
-- [x] Login
+- [x] Login with E-mail
 - [x] 2 ScrollView  interactive
 - [x] Background publish content
 - [x] MapKit add cover
