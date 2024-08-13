@@ -5,8 +5,8 @@ A fully SwiftUI-based iOS app to record everything.
 - [x] DIY TabView
 - [x] PageView Card
 - [x] Search from csv, list 
-- [x] NukeUI lazy load image
-- [x] Alamofire request network interface, upload images
+- [x] [!(NukeUI)](https://github.com/kean/Nuke) lazy load image
+- [x] [!(Alamofire)](https://github.com/Alamofire/Alamofire) request network interface, upload images
 - [x] Login
 - [x] 2 ScrollView  interactive
 - [x] Background publish content
