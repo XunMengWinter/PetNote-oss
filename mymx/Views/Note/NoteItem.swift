@@ -20,9 +20,19 @@ struct NoteItem: View {
     
     var body: some View {
         LazyVStack(alignment: .leading, spacing: 0) {
-            Text(note.content)
-                .font(.title3)
-                .padding(.vertical)
+
+            HStack{
+                Text(note.content)
+                    .font(.title3)
+                    .padding(.vertical)
+                Spacer(minLength: 0)
+                Button(action: {
+                    print("tap ....")
+                }, label: {
+                    Image(systemName: "ellipsis")
+                })
+                    
+            }
             if note.images.count > 1 {
                 LazyVGrid(columns: columnLayout, spacing: 8) {
                     ForEach(note.images, id: \.self) { image in
@@ -35,13 +45,15 @@ struct NoteItem: View {
                                         .resizable()
                                         .aspectRatio(contentMode: .fill)
                                 }
-                                .onTapGesture(perform: {
-                                    showBigImage.toggle()
-                                    imageIndex = note.images.firstIndex(of: image)!
-                                })
+                                
                             }
                             .aspectRatio(1.0, contentMode: ContentMode.fit)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
+                            .contentShape(.rect)
+                            .onTapGesture(perform: {
+                                showBigImage.toggle()
+                                imageIndex = note.images.firstIndex(of: image)!
+                            })
                     }
                 }
             }
@@ -89,15 +101,10 @@ struct NoteItem: View {
             .padding(.vertical)
         }
         .sheet(isPresented: $showBigImage, content: {
-            VStack{
-                HStack{
-                    Spacer()
-                    Text("")
-                }
                 ImagePageView(pages: note.images.map({
                     AttachmentImageView(imageUrl: $0)
-                }), enterPage: imageIndex)
-            }
+                }), currentPage: $imageIndex)
+            .presentationDragIndicator(.visible)
         })
         .onAppear(perform: {
             if(note.images.count == 2 || note.images.count == 4){

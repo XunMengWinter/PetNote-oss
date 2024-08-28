@@ -11,7 +11,7 @@ import NukeUI
 
 struct PhotoItem: View {
     var photo: Photo
-    let screenWidth = UIScreen.main.bounds.size.width
+//    let screenWidth = UIScreen.main.bounds.size.width
     var body: some View {
         VStack(alignment: .leading) {
             HStack{
@@ -42,7 +42,8 @@ struct PhotoItem: View {
                         .transition(.opacity.animation(.smooth))
                 }
             }))
-            .frame(width: screenWidth, height: screenWidth * CGFloat( photo.images[0].height) / CGFloat(photo.images[0].width) + 1)
+            .frame(maxWidth: .infinity)
+            .aspectRatio(CGFloat(photo.images[0].width) / CGFloat( photo.images[0].height + 1), contentMode: .fill)
             
             VStack(alignment: .leading){
                 if(!photo.title.isEmpty){

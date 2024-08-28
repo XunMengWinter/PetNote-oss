@@ -133,7 +133,8 @@ struct ContentView: View {
                 }
                 Spacer()
                 MyTabView(active: $selection, showAddNote: $showAddNote)
-                    .background(.white.opacity(0.0001))
+                    .background(.clear)
+                    .contentShape(.rect)
                     .onTapGesture {
                         print("tap tab view")
                     }
@@ -146,6 +147,7 @@ struct ContentView: View {
         }
         .fullScreenCover(isPresented: $showAddNote, content: {
             AddNoteView(showAddNote:$showAddNote, viewModel: addNoteVM)
+                .environmentObject(modelData)
         })
         .onAppear(perform: {
             print("ContentView onAppear")
@@ -165,7 +167,8 @@ struct MyTabView: View {
     var body: some View {
         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 0), count: 5), spacing: 0) {
             Rectangle()
-                .foregroundStyle(.white.opacity(0.0001))
+                .foregroundStyle(.clear)
+                .contentShape(.rect)
                 .overlay{
                     Text("首页")
                         .font(active == .home ? .title3 : .body)
@@ -179,7 +182,8 @@ struct MyTabView: View {
                     }
                 }
             Rectangle()
-                .foregroundStyle(.white.opacity(0.0001))
+                .foregroundStyle(.clear)
+                .contentShape(.rect)
                 .overlay{
                     Text("爱宠说")
                         .font(active == .note ? .title3 : .body)
@@ -193,7 +197,8 @@ struct MyTabView: View {
                     }
                 }
             Rectangle()
-                .foregroundStyle(.white.opacity(0.0001))
+                .foregroundStyle(.clear)
+                .contentShape(.rect)
                 .overlay{
                     Button(action: {
                         print("add Note")
@@ -223,7 +228,8 @@ struct MyTabView: View {
                     
                 }
             Rectangle()
-                .foregroundStyle(.white.opacity(0.0001))
+                .foregroundStyle(.clear)
+                .contentShape(.rect)
                 .overlay{
                     Text("社区")
                         .font(active == .community ? .title3 : .body)
@@ -237,7 +243,7 @@ struct MyTabView: View {
                     }
                 }
             Rectangle()
-                .foregroundStyle(.white.opacity(0.0001))
+                .foregroundStyle(.clear)
                 .overlay{
                     Text("我")
                         .font(active == .mine ? .title3 : .body)

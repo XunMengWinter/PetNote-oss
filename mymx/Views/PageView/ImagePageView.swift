@@ -10,8 +10,8 @@ import SwiftUI
 
 struct ImagePageView<Page: View>: View {
     var pages: [Page]
-    var enterPage = 0
-    @State private var currentPage = 0
+//    @Binding var enterPage: Int
+    @Binding var currentPage: Int
     
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -29,7 +29,6 @@ struct ImagePageView<Page: View>: View {
             }
         }
         .onAppear(perform: {
-            currentPage = enterPage
         })
     }
 }

@@ -18,7 +18,7 @@ struct CardHome: View{
     @State private var loading = false
     
     var body: some View {
-        NavigationView{
+        NavigationStack{
             ScrollView{
                 VStack{
                     if(weatherVM.poetryWeathers.count > 0){
