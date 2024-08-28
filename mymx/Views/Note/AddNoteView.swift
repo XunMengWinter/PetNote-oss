@@ -238,6 +238,7 @@ struct PetItemView: View {
     }
 }
 
-//#Preview {
-//
-//}
+#Preview {
+AddNoteView(showAddNote: .constant(true), viewModel: AddNoteVM())
+    .environmentObject(ModelData())
+}

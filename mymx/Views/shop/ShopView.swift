@@ -24,6 +24,8 @@ struct ShopView: View {
     @State private var showSearch = false
     @State private var searchKey = ""
     @State private var showCart = false
+    let screenWidth = UIScreen.main.bounds.size.width
+
     
     var body: some View{
         VStack(spacing: 0){
@@ -54,8 +56,7 @@ struct ShopView: View {
                                         }
                                     }
                                 }
-                                .frame(width: 88, height: 80)
-                                .onTapGesture(perform: {
+                                .frame(height: 76)                            .onTapGesture(perform: {
                                     self.selectedType = goodsType
                                     self.lastTapTime = Date().timeIntervalSince1970
                                     withAnimation{
@@ -71,7 +72,7 @@ struct ShopView: View {
                             }
                         }
                     }
-                    .frame(width: 88)
+                    .frame(width: .minimum(180, .maximum(88, screenWidth / 6)))
                     .background(Color.categoryBg)
                     .scrollIndicators(.hidden)
                     

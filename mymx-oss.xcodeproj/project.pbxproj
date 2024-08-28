@@ -70,7 +70,6 @@
 		58D806D12C5660CD00BDAC70 /* ShopVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D806D02C5660CD00BDAC70 /* ShopVM.swift */; };
 		58D806D32C57790E00BDAC70 /* GoodsTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D806D22C57790E00BDAC70 /* GoodsTypeModel.swift */; };
 		58D8FED72C39018A00538CBB /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FED62C39018A00538CBB /* NoteView.swift */; };
-		58D8FEDA2C39302800538CBB /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FED92C39302800538CBB /* NoteItem.swift */; };
 		58D8FEDC2C39309400538CBB /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEDB2C39309400538CBB /* NoteModel.swift */; };
 		58D8FEDE2C39747400538CBB /* AddPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEDD2C39747400538CBB /* AddPetView.swift */; };
 		58D8FEE02C39783900538CBB /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEDF2C39783900538CBB /* PetModel.swift */; };
@@ -136,7 +135,6 @@
 		5843DB8F2C6215DA00173D98 /* OrderRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRequestModel.swift; sourceTree = "<group>"; };
 		5846101B2C68C15500BBA5F1 /* goodsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goodsList.json; sourceTree = "<group>"; };
 		5846101E2C690D1000BBA5F1 /* JoinRankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRankingView.swift; sourceTree = "<group>"; };
-		584A53D32C63F7A0004F4F20 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		584A53DC2C64A8E0004F4F20 /* CouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponView.swift; sourceTree = "<group>"; };
 		585AC13E2C2864A500843BA0 /* CityPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPicker.swift; sourceTree = "<group>"; };
 		585AC1402C2867D900843BA0 /* CityPickerVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPickerVM.swift; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 		581162A72C2075F800A0B708 = {
 			isa = PBXGroup;
 			children = (
-				584A53D32C63F7A0004F4F20 /* Bridging-Header.h */,
 				581162B22C2075F800A0B708 /* mymx */,
 				580F839B2C405AAB0047FBB9 /* mymx.app */,
 			);
@@ -587,7 +584,6 @@
 				58F59B7F2C46A65E004CE576 /* AddNoteVM.swift in Sources */,
 				58E6B86B2C259271000AEF31 /* PoetryWeatherResult.swift in Sources */,
 				589AEFDD2C243D0200FD8998 /* PhotoModel.swift in Sources */,
-				58D8FEDA2C39302800538CBB /* NoteItem.swift in Sources */,
 				588D19522C25F76F00CE51CE /* PageViewController.swift in Sources */,
 				5843DB902C6215DA00173D98 /* OrderRequestModel.swift in Sources */,
 				588D19512C25F76F00CE51CE /* WeatherPageView.swift in Sources */,
