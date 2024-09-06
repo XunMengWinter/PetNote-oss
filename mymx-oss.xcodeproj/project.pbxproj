@@ -79,6 +79,8 @@
 		58D8FEE82C3ADF4E00538CBB /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEE72C3ADF4E00538CBB /* LoginVM.swift */; };
 		58D8FEEA2C3B261900538CBB /* GlobalParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEE92C3B261900538CBB /* GlobalParams.swift */; };
 		58D8FEED2C3B26F800538CBB /* AddPetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEEC2C3B26F800538CBB /* AddPetVM.swift */; };
+		58DCDB502C8B40310019C790 /* SearchableMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DCDB4F2C8B40310019C790 /* SearchableMap.swift */; };
+		58DCDB522C8B40460019C790 /* MapSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DCDB512C8B40460019C790 /* MapSheetView.swift */; };
 		58DDFF232C5198E600863370 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DDFF222C5198E600863370 /* TextView.swift */; };
 		58E435C42C43B476004170DE /* PetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E435C32C43B476004170DE /* PetListView.swift */; };
 		58E6B8692C256EE4000AEF31 /* WeatherVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E6B8682C256EE4000AEF31 /* WeatherVM.swift */; };
@@ -181,6 +183,8 @@
 		58D8FEE72C3ADF4E00538CBB /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
 		58D8FEE92C3B261900538CBB /* GlobalParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalParams.swift; sourceTree = "<group>"; };
 		58D8FEEC2C3B26F800538CBB /* AddPetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetVM.swift; sourceTree = "<group>"; };
+		58DCDB4F2C8B40310019C790 /* SearchableMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableMap.swift; sourceTree = "<group>"; };
+		58DCDB512C8B40460019C790 /* MapSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSheetView.swift; sourceTree = "<group>"; };
 		58DDFF222C5198E600863370 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		58E435C32C43B476004170DE /* PetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListView.swift; sourceTree = "<group>"; };
 		58E6B8682C256EE4000AEF31 /* WeatherVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVM.swift; sourceTree = "<group>"; };
@@ -256,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				581162B52C2075F800A0B708 /* ContentView.swift */,
+				58DCDB4E2C8B40250019C790 /* Map */,
 				589AD4DE2C4439FB00BE2B10 /* Widget */,
 				58D8FED82C392FBB00538CBB /* Note */,
 				58E435C22C43B431004170DE /* Pet */,
@@ -404,6 +409,15 @@
 				58D8FEE92C3B261900538CBB /* GlobalParams.swift */,
 			);
 			path = Static;
+			sourceTree = "<group>";
+		};
+		58DCDB4E2C8B40250019C790 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				58DCDB4F2C8B40310019C790 /* SearchableMap.swift */,
+				58DCDB512C8B40460019C790 /* MapSheetView.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		58E435C22C43B431004170DE /* Pet */ = {
@@ -559,11 +573,13 @@
 				58EB6FF72C5B61F500581F5D /* NetworkMonitor.swift in Sources */,
 				58D8FEE42C3ABE0600538CBB /* LoginView.swift in Sources */,
 				5818B8D12C42677200B73DF3 /* NoteVM.swift in Sources */,
+				58DCDB522C8B40460019C790 /* MapSheetView.swift in Sources */,
 				58F59B7D2C468E2A004CE576 /* BottomRightCornerClipShape.swift in Sources */,
 				588D19502C25F76F00CE51CE /* PageControl.swift in Sources */,
 				581162B42C2075F800A0B708 /* mymxApp.swift in Sources */,
 				58EB6FF52C5AD36C00581F5D /* RoundedCornerShape.swift in Sources */,
 				580F48042C33F9E000542E37 /* PhotoPageView.swift in Sources */,
+				58DCDB502C8B40310019C790 /* SearchableMap.swift in Sources */,
 				58F59B792C45B866004CE576 /* CustomViewController.swift in Sources */,
 				5886EEA42C5F595400F15F23 /* MapView.swift in Sources */,
 				58E93E7F2C2A854700A90AA5 /* WeatherBgPickerVM.swift in Sources */,

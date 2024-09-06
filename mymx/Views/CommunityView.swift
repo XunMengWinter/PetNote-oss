@@ -55,7 +55,7 @@ struct CommunityView: View {
                             })
                     }
                     
-                    NavigationLink(destination: ForumView()){
+                    NavigationLink(destination: SearchableMap()){
                         Rectangle()
                             .foregroundStyle(Color("forumColor"))
                             .frame(width: screenWidth)
@@ -66,7 +66,7 @@ struct CommunityView: View {
                                         .scaledToFit()
                                         .frame(width: 128, height: 128)
                                         .padding(.leading, 64)
-                                    Text("爱宠圈")
+                                    Text("爱宠地图")
                                         .font(.largeTitle)
                                         .padding()
                                     Spacer(minLength: 0)
