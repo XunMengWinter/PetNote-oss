@@ -39,6 +39,7 @@
 		585AC1412C2867D900843BA0 /* CityPickerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585AC1402C2867D900843BA0 /* CityPickerVM.swift */; };
 		585AC1442C28692F00843BA0 /* China-City-List-latest.csv in Resources */ = {isa = PBXBuildFile; fileRef = 585AC1432C28692F00843BA0 /* China-City-List-latest.csv */; };
 		585AC1462C287ED400843BA0 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585AC1452C287ED400843BA0 /* CityModel.swift */; };
+		585B4CCC2C8AFD97004E03D6 /* NoteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FED92C39302800538CBB /* NoteItem.swift */; };
 		5867D1A12C3E04E4006BA997 /* StsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5867D1A02C3E04E4006BA997 /* StsResult.swift */; };
 		5867D1B42C3EA817006BA997 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5867D1B32C3EA817006BA997 /* ProfileView.swift */; };
 		5886EEA22C5E274A00F15F23 /* PreviewOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886EEA12C5E274A00F15F23 /* PreviewOrderView.swift */; };
@@ -547,6 +548,7 @@
 				58E93E732C29433600A90AA5 /* ModelData.swift in Sources */,
 				58A283A52C4F81700055E0FD /* EmptyView.swift in Sources */,
 				5802BAB92C3300180087B717 /* FactsView.swift in Sources */,
+				585B4CCC2C8AFD97004E03D6 /* NoteItem.swift in Sources */,
 				58A283A32C4F71BE0055E0FD /* CommunityView.swift in Sources */,
 				58D8FEDC2C39309400538CBB /* NoteModel.swift in Sources */,
 				58B508E82C3BB0F4006F0DB7 /* LoginResult.swift in Sources */,
@@ -765,7 +767,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pet.zzz.loveoss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ice/Documents/work/wefor/ios/MYMX/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -807,7 +809,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pet.zzz.loveoss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ice/Documents/work/wefor/ios/MYMX/Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
