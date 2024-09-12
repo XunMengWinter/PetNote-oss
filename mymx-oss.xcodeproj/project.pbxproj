@@ -21,6 +21,8 @@
 		581162C52C2081D600A0B708 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581162C42C2081D600A0B708 /* LibraryView.swift */; };
 		581162C72C2081F000A0B708 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581162C62C2081F000A0B708 /* ShopView.swift */; };
 		5812055F2C5387F000FC6D36 /* SmsResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812055E2C5387F000FC6D36 /* SmsResult.swift */; };
+		5813DA992C92B7C7002B60F8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 5813DA982C92B7C7002B60F8 /* Localizable.xcstrings */; };
+		5813DA9C2C92BB54002B60F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5813DA9A2C92BB54002B60F8 /* InfoPlist.strings */; };
 		5818B8D12C42677200B73DF3 /* NoteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5818B8D02C42677200B73DF3 /* NoteVM.swift */; };
 		581E82E32C5D069300E3330D /* EditPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E82E22C5D069300E3330D /* EditPetView.swift */; };
 		581E82E52C5DA37500E3330D /* DeletePetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E82E42C5DA37500E3330D /* DeletePetVM.swift */; };
@@ -129,6 +131,11 @@
 		581162C42C2081D600A0B708 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		581162C62C2081F000A0B708 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 		5812055E2C5387F000FC6D36 /* SmsResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsResult.swift; sourceTree = "<group>"; };
+		5813DA982C92B7C7002B60F8 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		5813DA9B2C92BB54002B60F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5813DA9D2C92BB7B002B60F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5813DA9E2C92BB7E002B60F8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5813DA9F2C92BB80002B60F8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5818B8D02C42677200B73DF3 /* NoteVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVM.swift; sourceTree = "<group>"; };
 		581E82E22C5D069300E3330D /* EditPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPetView.swift; sourceTree = "<group>"; };
 		581E82E42C5DA37500E3330D /* DeletePetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePetVM.swift; sourceTree = "<group>"; };
@@ -298,6 +305,8 @@
 			isa = PBXGroup;
 			children = (
 				585AC1432C28692F00843BA0 /* China-City-List-latest.csv */,
+				5813DA982C92B7C7002B60F8 /* Localizable.xcstrings */,
+				5813DA9A2C92BB54002B60F8 /* InfoPlist.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -504,6 +513,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hans",
+				ja,
 			);
 			mainGroup = 581162A72C2075F800A0B708;
 			packageReferences = (
@@ -526,7 +538,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				58E6B8732C259A41000AEF31 /* poetry_weather.json in Resources */,
+				5813DA9C2C92BB54002B60F8 /* InfoPlist.strings in Resources */,
 				5846101C2C68C15500BBA5F1 /* goodsList.json in Resources */,
+				5813DA992C92B7C7002B60F8 /* Localizable.xcstrings in Resources */,
 				585AC1442C28692F00843BA0 /* China-City-List-latest.csv in Resources */,
 				581162BB2C2075F800A0B708 /* Preview Assets.xcassets in Resources */,
 				581162B82C2075F800A0B708 /* Assets.xcassets in Resources */,
@@ -625,6 +639,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5813DA9A2C92BB54002B60F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5813DA9B2C92BB54002B60F8 /* en */,
+				5813DA9D2C92BB7B002B60F8 /* zh-Hans */,
+				5813DA9E2C92BB7E002B60F8 /* zh-Hant */,
+				5813DA9F2C92BB80002B60F8 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		581162BC2C2075F800A0B708 /* Debug */ = {
