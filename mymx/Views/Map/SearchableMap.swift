@@ -1,91 +1,52 @@
-//
-//  SearchableMap.swift
-//  mymx
-//
-//  Created by ice on 2024/8/13.
-//
-
 import SwiftUI
 import MapKit
 
 struct SearchableMap: View {
     @State private var position = MapCameraPosition.automatic
-    @State private var xihuCoordinate = CLLocationCoordinate2D(latitude: 30.243933, longitude: 120.146351)
-    @State private var span = MKCoordinateSpan(latitudeDelta: 0.08, longitudeDelta: 0.08)
-
-    @State private var isSheetPresented: Bool = false
+    @State private var searchResults = [SearchResult]()
+    @State private var selectedLocation: SearchResult?
+    @State private var isSheetPresented: Bool = true
     @State private var scene: MKLookAroundScene?
-    @State private var statusBarHeight: CGFloat = 0
-    @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
-        // 3
-        ZStack{
-            ScrollView{
-                VStack{
-                    Map(position: .constant(.region(MKCoordinateRegion(center: xihuCoordinate, span: span)))) {
-                      
-                    }
-                    .frame(height: 500)
-                    .mapControls {
-//                        MapUserLocationButton()
-                        MapCompass()
-                        MapScaleView()
-                    }
-                    .overlay(alignment: .bottom) {
-                        HStack{
-                            Image("map")
-                                .resizable()
-                                .frame(width: 100, height: 100)
-                            Text("Pet Map is coming soon!")
-                                .font(.title)
-                                .padding()
-                        }
-                        .padding()
-                        .background(.regularMaterial)
-                        .clipShape(.rect(cornerRadius: 16))
-                        .padding()
-                    }
-                    
+        Map(position: $position, selection: $selectedLocation) {
+            ForEach(searchResults) { result in
+                Marker(coordinate: result.location) {
+                    Image(systemName: "mappin")
                 }
-            }
-            
-            VStack{
-                HStack{
-                    Button(action: {
-                        presentationMode.wrappedValue.dismiss()
-                    }, label: {
-                        Image(systemName: "chevron.backward")
-                            .font(.title2)
-                            .padding(.top, statusBarHeight)
-                            .padding()
-                            .contentShape(.rect)
-                    })
-                    Spacer()
-                }
-                Spacer()
+                .tag(result)
             }
         }
-        .ignoresSafeArea(.all)
-//        .navigationTitle("Pet Map")
-        .toolbar(.hidden, for: .navigationBar)
-        .navigationBarBackButtonHidden(true)
+        .overlay(alignment: .bottom) {
+            if selectedLocation != nil {
+                LookAroundPreview(scene: $scene, allowsNavigation: false, badgePosition: .bottomTrailing)
+                    .frame(height: 150)
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .safeAreaPadding(.bottom, 40)
+                    .padding(.horizontal, 20)
+            }
+        }
+        .ignoresSafeArea()
+        .onChange(of: selectedLocation) {
+            if let selectedLocation {
+                Task {
+                    scene = try? await fetchScene(for: selectedLocation.location)
+                }
+            }
+            isSheetPresented = selectedLocation == nil
+        }
+        .onChange(of: searchResults) {
+            if let firstResult = searchResults.first, searchResults.count == 1 {
+                selectedLocation = firstResult
+            }
+        }
         .sheet(isPresented: $isSheetPresented) {
-            MapSheetView()
+            MapSheetView(searchResults: $searchResults)
         }
-        .onAppear(perform: {
-            if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-                self.statusBarHeight = windowScene.statusBarManager?.statusBarFrame.height ?? 0
-            }
-        })
     }
-    
+
     private func fetchScene(for coordinate: CLLocationCoordinate2D) async throws -> MKLookAroundScene? {
         let lookAroundScene = MKLookAroundSceneRequest(coordinate: coordinate)
         return try await lookAroundScene.scene
     }
-}
-
-#Preview {
-    SearchableMap()
 }

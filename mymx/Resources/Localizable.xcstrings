@@ -139,13 +139,13 @@
     "OK" : {
 
     },
-    "Pet Map is coming soon!" : {
-
-    },
     "Pet's Forum is coming soon!" : {
 
     },
     "Pet's Library is coming soon!" : {
+
+    },
+    "Search for a restaurant" : {
 
     },
     "User Profile" : {
@@ -251,8 +251,8 @@
         },
         "zh-Hans" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "私"
+            "state" : "translated",
+            "value" : "我"
           }
         },
         "zh-Hant" : {

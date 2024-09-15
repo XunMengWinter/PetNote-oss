@@ -1,63 +1,67 @@
-//
-//  MapSheetView.swift
-//  mymx
-//
-//  Created by ice on 2024/8/13.
-//
-
 import SwiftUI
 import MapKit
 
 struct MapSheetView: View {
-    
-    @EnvironmentObject private var modelData: ModelData
-    @State private var search: String = "Pet Map is coming soon!"
-    @State private var shopCoordinate = CLLocationCoordinate2D(latitude: 30.281439, longitude: 120.095027)
-    @State private var span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
-    
+    @State private var locationService = LocationService(completer: .init())
+    @State private var search: String = ""
+    // 1
+    @Binding var searchResults: [SearchResult]
+
     var body: some View {
         VStack {
-            // 1
             HStack {
                 Image(systemName: "magnifyingglass")
-                TextField("Pet Map is coming soon!", text: $search)
+                TextField("Search", text: $search)
                     .autocorrectionDisabled()
-                    .submitLabel(.search)
+                    // 2
                     .onSubmit {
                         Task {
-                            let region = MKCoordinateRegion(center: shopCoordinate, span: span)
+                            searchResults = (try? await locationService.search(with: search)) ?? []
                         }
                     }
             }
             .modifier(TextFieldGrayBackgroundColor())
-            
+
             Spacer()
-            
-            // 2
+
             List {
+                ForEach(locationService.completions) { completion in
+                    // 3
+                    Button(action: { didTapOnCompletion(completion) }) {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(completion.title)
+                                .font(.headline)
+                                .fontDesign(.rounded)
+                            Text(completion.subTitle)
+                            // What can we show?
+                            if let url = completion.url {
+                                Link(url.absoluteString, destination: url)
+                                    .lineLimit(1)
+                            }
+                        }
+                    }
+                    .listRowBackground(Color.clear)
+                }
             }
-            // 4
             .listStyle(.plain)
             .scrollContentBackground(.hidden)
         }
+        .onChange(of: search) {
+            locationService.update(queryFragment: search)
+        }
         .padding()
-        // 2
         .interactiveDismissDisabled()
-        // 3
-        .presentationDetents([.height(200), .large])
-        // 4
+        .presentationDetents([.height(200), .medium])
         .presentationBackground(.regularMaterial)
-        // 5
-        .presentationBackgroundInteraction(.enabled(upThrough: .large))
+        .presentationBackgroundInteraction(.enabled(upThrough: .medium))
     }
-}
 
-struct TextFieldGrayBackgroundColor: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .padding(12)
-            .background(.gray.opacity(0.1))
-            .cornerRadius(8)
-            .foregroundColor(.primary)
+    // 4
+    private func didTapOnCompletion(_ completion: SearchCompletions) {
+        Task {
+            if let singleLocation = try? await locationService.search(with: "\(completion.title) \(completion.subTitle)").first {
+                searchResults = [singleLocation]
+            }
+        }
     }
 }
