@@ -27,7 +27,8 @@ Click to watch
 - [x] 2 ScrollView  interactive
 - [x] Background publish content
 - [x] MapKit add cover
-- [ ] MapKit Search 
+- [x] MapKit Search
+- [ ] Widget
 
 
 
