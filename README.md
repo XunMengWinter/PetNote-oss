@@ -1,7 +1,7 @@
 # PetNote-oss
 A fully SwiftUI-based iOS app to note everything.
 
-[![Download on the App Store](https://raw.githubusercontent.com/Dimillian/IceCubesApp/main/Images/download_on_the_app_store.svg)](https://apps.apple.com/app/id6657973126)
+[![Download on the App Store](https://raw.githubusercontent.com/Dimillian/IceCubesApp/main/Images/download_on_the_app_store.svg)](https://apps.apple.com/us/app/id6657973126)
 
 ## Demo
 [![Click to watch](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/img-aichongshe-oss-demo.jpg)](https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37f4981955278d3532660e4934b6ad2)
