@@ -8,7 +8,7 @@
 import SwiftUI
 import NukeUI
 
-enum Tab {
+enum Tab: String {
     case home
     case note
     case add
@@ -149,6 +149,28 @@ struct ContentView: View {
             AddNoteView(showAddNote:$showAddNote, viewModel: addNoteVM)
                 .environmentObject(modelData)
         })
+        .onOpenURL { url in
+            print("Received deep link: \(url)")
+            // https://zzz.pet/loveoss/note?selectedPet=49
+            // Use URLComponents to parse the URL
+            let components = URLComponents(url: url, resolvingAgainstBaseURL: false)
+                     
+            let pathArray = url.path().split(separator: "/")
+            if pathArray.count > 1{
+                let path = pathArray[1]
+                let tab = Tab(rawValue: path.lowercased())
+                selection = tab ?? .home
+                if tab == .note{
+                    if let queryItems = components?.queryItems {
+                        for item in queryItems {
+                            if item.name == "selectedPet", let petId = Int(item.value ?? "0") {
+                                // change selectedPet
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .onAppear(perform: {
             print("ContentView onAppear")
             if(modelData.petList.isEmpty){

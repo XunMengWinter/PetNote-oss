@@ -19,5 +19,11 @@ class GlobalParams{
         GlobalParams.updateNote = true
     }
     
+    static var dateFormatter: DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateFormat = DateFormatter.dateFormat(fromTemplate: "yMMMd", options: 0, locale: Locale.current)
+        return formatter
+    }
+    
     static var shopOpenTime = "周二至周日 13:00~22:00"
 }

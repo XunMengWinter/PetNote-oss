@@ -64,6 +64,19 @@
 		58A283A32C4F71BE0055E0FD /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A283A22C4F71BE0055E0FD /* CommunityView.swift */; };
 		58A283A52C4F81700055E0FD /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A283A42C4F81700055E0FD /* EmptyView.swift */; };
 		58AC3D292C58C7E80030B16F /* GoodsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AC3D282C58C7E80030B16F /* GoodsRow.swift */; };
+		58AF4CCE2C9EC9D200BF3C20 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C08EFA2C9E6E8500EC0E62 /* WidgetKit.framework */; };
+		58AF4CCF2C9EC9D200BF3C20 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C08EFC2C9E6E8500EC0E62 /* SwiftUI.framework */; };
+		58AF4CD22C9EC9D200BF3C20 /* PetWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF4CD12C9EC9D200BF3C20 /* PetWidgetBundle.swift */; };
+		58AF4CD42C9EC9D200BF3C20 /* PetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF4CD32C9EC9D200BF3C20 /* PetWidget.swift */; };
+		58AF4CD62C9EC9D300BF3C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AF4CD52C9EC9D300BF3C20 /* Assets.xcassets */; };
+		58AF4CDA2C9EC9D300BF3C20 /* PetWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 58AF4CCD2C9EC9D200BF3C20 /* PetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		58AF4CDF2C9ECA3D00BF3C20 /* Urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CBD2F32C2D430700951251 /* Urls.swift */; };
+		58AF4CE02C9ECA4000BF3C20 /* GlobalParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEE92C3B261900538CBB /* GlobalParams.swift */; };
+		58AF4CE12C9ECA4300BF3C20 /* PetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8FEDF2C39783900538CBB /* PetModel.swift */; };
+		58AF4CE22C9ECA4700BF3C20 /* BaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A153FA2C41748600FC6329 /* BaseResult.swift */; };
+		58AF4CE42C9ECA5700BF3C20 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 58AF4CE32C9ECA5700BF3C20 /* Alamofire */; };
+		58AF4CE62C9ECA5700BF3C20 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 58AF4CE52C9ECA5700BF3C20 /* NukeUI */; };
+		58AF4CE72C9ECA6700BF3C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581162B72C2075F800A0B708 /* Assets.xcassets */; };
 		58B508E82C3BB0F4006F0DB7 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B508E72C3BB0F4006F0DB7 /* LoginResult.swift */; };
 		58B508EA2C3BB34A006F0DB7 /* DatabaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B508E92C3BB34A006F0DB7 /* DatabaseResult.swift */; };
 		58B508EC2C3BC2E0006F0DB7 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B508EB2C3BC2E0006F0DB7 /* MineView.swift */; };
@@ -104,6 +117,16 @@
 		58F59B7F2C46A65E004CE576 /* AddNoteVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F59B7E2C46A65E004CE576 /* AddNoteVM.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		58AF4CD82C9EC9D300BF3C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 581162A82C2075F800A0B708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AF4CCC2C9EC9D200BF3C20;
+			remoteInfo = PetWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5867D1A22C3E1480006BA997 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -112,6 +135,17 @@
 			dstSubfolderSpec = 7;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C08F092C9E6E8700EC0E62 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				58AF4CDA2C9EC9D300BF3C20 /* PetWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -173,9 +207,18 @@
 		58A283A22C4F71BE0055E0FD /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
 		58A283A42C4F81700055E0FD /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		58AC3D282C58C7E80030B16F /* GoodsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsRow.swift; sourceTree = "<group>"; };
+		58AF4CCD2C9EC9D200BF3C20 /* PetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF4CD12C9EC9D200BF3C20 /* PetWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWidgetBundle.swift; sourceTree = "<group>"; };
+		58AF4CD32C9EC9D200BF3C20 /* PetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWidget.swift; sourceTree = "<group>"; };
+		58AF4CD52C9EC9D300BF3C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58AF4CD72C9EC9D300BF3C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AF4CDE2C9EC9E400BF3C20 /* PetWidgetExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetWidgetExtensionRelease.entitlements; sourceTree = "<group>"; };
 		58B508E72C3BB0F4006F0DB7 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
 		58B508E92C3BB34A006F0DB7 /* DatabaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseResult.swift; sourceTree = "<group>"; };
 		58B508EB2C3BC2E0006F0DB7 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
+		58C08EFA2C9E6E8500EC0E62 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		58C08EFC2C9E6E8500EC0E62 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		58C08F172C9E725400EC0E62 /* mymxRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mymxRelease.entitlements; sourceTree = "<group>"; };
 		58C58CC12C96892100317A8F /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		58CBD2F32C2D430700951251 /* Urls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urls.swift; sourceTree = "<group>"; };
 		58D806CC2C56354D00BDAC70 /* GoodsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsModel.swift; sourceTree = "<group>"; };
@@ -228,20 +271,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58AF4CCA2C9EC9D200BF3C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF4CE42C9ECA5700BF3C20 /* Alamofire in Frameworks */,
+				58AF4CCF2C9EC9D200BF3C20 /* SwiftUI.framework in Frameworks */,
+				58AF4CCE2C9EC9D200BF3C20 /* WidgetKit.framework in Frameworks */,
+				58AF4CE62C9ECA5700BF3C20 /* NukeUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		581162A72C2075F800A0B708 = {
 			isa = PBXGroup;
 			children = (
+				58AF4CDE2C9EC9E400BF3C20 /* PetWidgetExtensionRelease.entitlements */,
 				581162B22C2075F800A0B708 /* mymx */,
 				580F839B2C405AAB0047FBB9 /* mymx.app */,
+				58AF4CD02C9EC9D200BF3C20 /* PetWidget */,
+				58C08EF92C9E6E8500EC0E62 /* Frameworks */,
+				58AF4CCD2C9EC9D200BF3C20 /* PetWidgetExtension.appex */,
 			);
 			sourceTree = "<group>";
 		};
 		581162B22C2075F800A0B708 /* mymx */ = {
 			isa = PBXGroup;
 			children = (
+				58C08F172C9E725400EC0E62 /* mymxRelease.entitlements */,
 				58EB6FF82C5B795000581F5D /* mymx.entitlements */,
 				582C0CF92C24970A0022FFC6 /* Info.plist */,
 				581162B32C2075F800A0B708 /* mymxApp.swift */,
@@ -402,6 +461,26 @@
 			path = shop;
 			sourceTree = "<group>";
 		};
+		58AF4CD02C9EC9D200BF3C20 /* PetWidget */ = {
+			isa = PBXGroup;
+			children = (
+				58AF4CD12C9EC9D200BF3C20 /* PetWidgetBundle.swift */,
+				58AF4CD32C9EC9D200BF3C20 /* PetWidget.swift */,
+				58AF4CD52C9EC9D300BF3C20 /* Assets.xcassets */,
+				58AF4CD72C9EC9D300BF3C20 /* Info.plist */,
+			);
+			path = PetWidget;
+			sourceTree = "<group>";
+		};
+		58C08EF92C9E6E8500EC0E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C08EFA2C9E6E8500EC0E62 /* WidgetKit.framework */,
+				58C08EFC2C9E6E8500EC0E62 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58D8FED82C392FBB00538CBB /* Note */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,10 +555,12 @@
 				581162AD2C2075F800A0B708 /* Frameworks */,
 				581162AE2C2075F800A0B708 /* Resources */,
 				5867D1A22C3E1480006BA997 /* CopyFiles */,
+				58C08F092C9E6E8700EC0E62 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				58AF4CD92C9EC9D300BF3C20 /* PBXTargetDependency */,
 			);
 			name = mymx;
 			packageProductDependencies = (
@@ -494,6 +575,27 @@
 			productReference = 580F839B2C405AAB0047FBB9 /* mymx.app */;
 			productType = "com.apple.product-type.application";
 		};
+		58AF4CCC2C9EC9D200BF3C20 /* PetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF4CDB2C9EC9D300BF3C20 /* Build configuration list for PBXNativeTarget "PetWidgetExtension" */;
+			buildPhases = (
+				58AF4CC92C9EC9D200BF3C20 /* Sources */,
+				58AF4CCA2C9EC9D200BF3C20 /* Frameworks */,
+				58AF4CCB2C9EC9D200BF3C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetWidgetExtension;
+			packageProductDependencies = (
+				58AF4CE32C9ECA5700BF3C20 /* Alamofire */,
+				58AF4CE52C9ECA5700BF3C20 /* NukeUI */,
+			);
+			productName = PetWidgetExtension;
+			productReference = 58AF4CCD2C9EC9D200BF3C20 /* PetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -505,6 +607,9 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					581162AF2C2075F800A0B708 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					58AF4CCC2C9EC9D200BF3C20 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -531,6 +636,7 @@
 			projectRoot = "";
 			targets = (
 				581162AF2C2075F800A0B708 /* mymx */,
+				58AF4CCC2C9EC9D200BF3C20 /* PetWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -547,6 +653,15 @@
 				585AC1442C28692F00843BA0 /* China-City-List-latest.csv in Resources */,
 				581162BB2C2075F800A0B708 /* Preview Assets.xcassets in Resources */,
 				581162B82C2075F800A0B708 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF4CCB2C9EC9D200BF3C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF4CE72C9ECA6700BF3C20 /* Assets.xcassets in Resources */,
+				58AF4CD62C9EC9D300BF3C20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,7 +757,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		58AF4CC92C9EC9D200BF3C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF4CDF2C9ECA3D00BF3C20 /* Urls.swift in Sources */,
+				58AF4CD22C9EC9D200BF3C20 /* PetWidgetBundle.swift in Sources */,
+				58AF4CE02C9ECA4000BF3C20 /* GlobalParams.swift in Sources */,
+				58AF4CE12C9ECA4300BF3C20 /* PetModel.swift in Sources */,
+				58AF4CD42C9EC9D200BF3C20 /* PetWidget.swift in Sources */,
+				58AF4CE22C9ECA4700BF3C20 /* BaseResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58AF4CD92C9EC9D300BF3C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AF4CCC2C9EC9D200BF3C20 /* PetWidgetExtension */;
+			targetProxy = 58AF4CD82C9EC9D300BF3C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5813DA9A2C92BB54002B60F8 /* InfoPlist.strings */ = {
@@ -783,6 +919,7 @@
 		581162BF2C2075F800A0B708 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = mymx/mymx.entitlements;
@@ -824,9 +961,10 @@
 		581162C02C2075F800A0B708 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = mymx/mymx.entitlements;
+				CODE_SIGN_ENTITLEMENTS = mymx/mymxRelease.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"mymx/Preview Content\"";
@@ -863,6 +1001,63 @@
 			};
 			name = Release;
 		};
+		58AF4CDC2C9EC9D300BF3C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQUYHUMBV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PetWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pet.zzz.loveoss.PetWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58AF4CDD2C9EC9D300BF3C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PetWidgetExtensionRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YQUYHUMBV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PetWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pet.zzz.loveoss.PetWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -880,6 +1075,15 @@
 			buildConfigurations = (
 				581162BF2C2075F800A0B708 /* Debug */,
 				581162C02C2075F800A0B708 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AF4CDB2C9EC9D300BF3C20 /* Build configuration list for PBXNativeTarget "PetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF4CDC2C9EC9D300BF3C20 /* Debug */,
+				58AF4CDD2C9EC9D300BF3C20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -938,6 +1142,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 585AC1352C28190F00843BA0 /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = NukeVideo;
+		};
+		58AF4CE32C9ECA5700BF3C20 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 582C0CF32C2474520022FFC6 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		58AF4CE52C9ECA5700BF3C20 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585AC1352C28190F00843BA0 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
 		};
 		58F59B762C45AE45004CE576 /* Mantis */ = {
 			isa = XCSwiftPackageProductDependency;

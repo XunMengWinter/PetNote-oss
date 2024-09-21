@@ -84,13 +84,7 @@ class LoginVM: ObservableObject {
                         GlobalParams.token = res.token
                         GlobalParams.tokenExpires = res.tokenExpires
                         
-                        self.modelData!.user = res.user
-                        if let encoded = try? JSONEncoder().encode(res) {
-                            UserDefaults.standard.set(encoded, forKey: DataKeys.LOGIN_RESULT)
-                        }
-                        if let encoded = try? JSONEncoder().encode(res.user?.mail) {
-                            UserDefaults.standard.set(encoded, forKey: DataKeys.LAST_LOGIN_MAIL)
-                        }
+                        self.modelData?.saveLoginData(res: res)
                     }else if let errorMsg = res.error{
                         self.errorMsg = errorMsg
                     }

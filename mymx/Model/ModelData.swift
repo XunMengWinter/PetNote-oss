@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import WidgetKit
 
 //@Observable
 class ModelData: ObservableObject{
@@ -40,8 +41,27 @@ class ModelData: ObservableObject{
                     self.user = loginResult.user
                     GlobalParams.token = loginResult.token
                     GlobalParams.tokenExpires = loginResult.tokenExpires
+                    shareTokenToGroup(loginResult.token)
                 }
             }
+        }
+    }
+    
+    private func shareTokenToGroup(_ token: String){
+        if let sharedDefaults = UserDefaults(suiteName: "group.pet.zzz.loveoss") {
+            sharedDefaults.setValue(token, forKey: "token")
+            print("share token" )
+        }
+    }
+    
+    func saveLoginData(res: LoginResult){
+        self.user = res.user
+        shareTokenToGroup(res.token)
+        if let encoded = try? JSONEncoder().encode(res) {
+            UserDefaults.standard.set(encoded, forKey: DataKeys.LOGIN_RESULT)
+        }
+        if let encoded = try? JSONEncoder().encode(res.user?.mail) {
+            UserDefaults.standard.set(encoded, forKey: DataKeys.LAST_LOGIN_MAIL)
         }
     }
     
@@ -57,6 +77,7 @@ class ModelData: ObservableObject{
                 case .success(let res):
                     if let pets = res.data{
                         self.petList = pets
+                        WidgetCenter.shared.reloadAllTimelines()
                         return
                     }
                 case .failure(let error):
