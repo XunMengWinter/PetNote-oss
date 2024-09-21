@@ -56,39 +56,28 @@ struct Provider: TimelineProvider {
     func fetchData() async throws -> BaseResult<[PetModel]> {
         print("fetchData")
         var token = ""
-        
         if let sharedDefaults = UserDefaults(suiteName: "group.pet.zzz.loveoss") {
-            print("Shared Defaults: \(sharedDefaults)")
             if let sharedData = sharedDefaults.string(forKey: "token") {
                 token = sharedData
-                print("PetWidget token: \(token)")
-            } else {
-                print("Token not found in shared defaults.")
             }
-        } else {
-            print("Unable to access shared defaults.")
         }
         
         let headers: HTTPHeaders = [
-            "Authorization": "Bearer \(token)"
+            "Authentication": "Bearer " + token
         ]
         
-        do {
-            let data = try await AF.request(Urls.GET_PET_LIST, headers: headers)
-                .validate()
-                .serializingDecodable(BaseResult<[PetModel]>.self)
-                .value
-            return data
-        } catch {
-            print("Failed to fetch pet data: \(error)")
-            throw error
-        }
+        let data = try await AF.request(Urls.GET_PET_LIST, headers: headers)
+            .validate()
+            .serializingDecodable(BaseResult<[PetModel]>.self)
+            .value
+        return data
     }
 }
 
 struct SimpleEntry: Codable, TimelineEntry {
     var date: Date
     var petList: [PetModel]
+    var title: String?
 }
 
 struct PetWidgetEntryView: View {
@@ -132,8 +121,6 @@ struct PetWidgetEntryView: View {
                             Spacer(minLength: 0)
                         }
                     }
-                    .widgetURL(URL(string: "https://zzz.pet/loveoss/note?selectedPet=\(pet.id)"))
-                    
                 case .systemLarge:
                     NetworkImage(url: URL(string: pet.avatar))
                         .scaledToFill()
@@ -148,15 +135,13 @@ struct PetWidgetEntryView: View {
                         }
                         .padding(.trailing)
                     }
-                    
                 default:
                     NetworkImage(url: URL(string: pet.avatar))
                         .scaledToFill()
                         .padding(-20)
                 }
             }
-            .widgetURL(URL(string: "https://zzz.pet/loveoss/chat"))
-        }
+            .widgetURL(URL(string: "https://zzz.pet/loveoss/note?selectedPet=\(pet.id)"))       }
     }
 }
 

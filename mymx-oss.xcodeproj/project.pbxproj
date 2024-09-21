@@ -76,7 +76,7 @@
 		58AF4CE22C9ECA4700BF3C20 /* BaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A153FA2C41748600FC6329 /* BaseResult.swift */; };
 		58AF4CE42C9ECA5700BF3C20 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 58AF4CE32C9ECA5700BF3C20 /* Alamofire */; };
 		58AF4CE62C9ECA5700BF3C20 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 58AF4CE52C9ECA5700BF3C20 /* NukeUI */; };
-		58AF4CE72C9ECA6700BF3C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581162B72C2075F800A0B708 /* Assets.xcassets */; };
+		58AF4CE92C9EDA6000BF3C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 581162B72C2075F800A0B708 /* Assets.xcassets */; };
 		58B508E82C3BB0F4006F0DB7 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B508E72C3BB0F4006F0DB7 /* LoginResult.swift */; };
 		58B508EA2C3BB34A006F0DB7 /* DatabaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B508E92C3BB34A006F0DB7 /* DatabaseResult.swift */; };
 		58B508EC2C3BC2E0006F0DB7 /* MineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B508EB2C3BC2E0006F0DB7 /* MineView.swift */; };
@@ -213,6 +213,7 @@
 		58AF4CD52C9EC9D300BF3C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AF4CD72C9EC9D300BF3C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58AF4CDE2C9EC9E400BF3C20 /* PetWidgetExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetWidgetExtensionRelease.entitlements; sourceTree = "<group>"; };
+		58AF4CE82C9ECDFC00BF3C20 /* PetWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetWidgetExtension.entitlements; sourceTree = "<group>"; };
 		58B508E72C3BB0F4006F0DB7 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
 		58B508E92C3BB34A006F0DB7 /* DatabaseResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseResult.swift; sourceTree = "<group>"; };
 		58B508EB2C3BC2E0006F0DB7 /* MineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineView.swift; sourceTree = "<group>"; };
@@ -288,6 +289,7 @@
 		581162A72C2075F800A0B708 = {
 			isa = PBXGroup;
 			children = (
+				58AF4CE82C9ECDFC00BF3C20 /* PetWidgetExtension.entitlements */,
 				58AF4CDE2C9EC9E400BF3C20 /* PetWidgetExtensionRelease.entitlements */,
 				581162B22C2075F800A0B708 /* mymx */,
 				580F839B2C405AAB0047FBB9 /* mymx.app */,
@@ -306,7 +308,7 @@
 				581162B32C2075F800A0B708 /* mymxApp.swift */,
 				581162B72C2075F800A0B708 /* Assets.xcassets */,
 				581162B92C2075F800A0B708 /* Preview Content */,
-				58E6B8702C2599D5000AEF31 /* Mock */,
+				58AF4CEA2C9EDC6300BF3C20 /* Data */,
 				589AEFDB2C243C7300FD8998 /* Model */,
 				585AC1422C28690B00843BA0 /* Resources */,
 				5867D1AF2C3E62DB006BA997 /* Utils */,
@@ -424,8 +426,6 @@
 		589AEFDB2C243C7300FD8998 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				58D8FEEB2C3B262300538CBB /* Static */,
-				58E93E722C29433600A90AA5 /* ModelData.swift */,
 				588B75412C23EA48001011A7 /* Photo.swift */,
 				589AEFDC2C243D0200FD8998 /* PhotoModel.swift */,
 				589AEFDE2C2452F500FD8998 /* PhotoResult.swift */,
@@ -470,6 +470,16 @@
 				58AF4CD72C9EC9D300BF3C20 /* Info.plist */,
 			);
 			path = PetWidget;
+			sourceTree = "<group>";
+		};
+		58AF4CEA2C9EDC6300BF3C20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				58E6B8702C2599D5000AEF31 /* Mock */,
+				58D8FEEB2C3B262300538CBB /* Static */,
+				58E93E722C29433600A90AA5 /* ModelData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		58C08EF92C9E6E8500EC0E62 /* Frameworks */ = {
@@ -660,7 +670,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AF4CE72C9ECA6700BF3C20 /* Assets.xcassets in Resources */,
+				58AF4CE92C9EDA6000BF3C20 /* Assets.xcassets in Resources */,
 				58AF4CD62C9EC9D300BF3C20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1006,6 +1016,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = PetWidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YQUYHUMBV2;
