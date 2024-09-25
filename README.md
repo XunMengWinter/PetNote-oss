@@ -28,7 +28,7 @@ Click to watch
 - [x] Background publish content
 - [x] MapKit add cover
 - [x] MapKit Search
-- [ ] Widget
+- [x] Widget
 
 
 
