@@ -193,8 +193,8 @@ struct MyTabView: View {
                 .contentShape(.rect)
                 .overlay{
                     Text("首页")
-                        .font(active == .home ? .title3 : .body)
-                        .fontWeight(.black)
+                        .font(active == .home ? .headline : .callout)
+                        .bold()
                         .foregroundStyle(active == .home ? .primary : .secondary)
                         .padding(.vertical, 4)
                 }
@@ -208,8 +208,8 @@ struct MyTabView: View {
                 .contentShape(.rect)
                 .overlay{
                     Text("爱宠说")
-                        .font(active == .note ? .title3 : .body)
-                        .fontWeight(.black)
+                        .font(active == .note ? .headline : .callout)
+                        .bold()
                         .foregroundStyle(active == .note ? .primary : .secondary)
                         .padding(.vertical, 4)
                 }
@@ -236,12 +236,12 @@ struct MyTabView: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 32, height: 20)
-                            .padding(12)
+                            .padding(10)
                             .foregroundStyle(.white)
                             .bold()
                             .background(.button)
                             .clipShape(RoundedRectangle(cornerRadius: 16))
-                            .shadow(color: Color(UIColor(white: 0.8, alpha: 0.8)), radius: 8, x: 0, y: 4)
+                            .shadow(color: .plusShadow, radius: 8, x: 0, y: 4)
                         
                     }
                 }
@@ -254,8 +254,8 @@ struct MyTabView: View {
                 .contentShape(.rect)
                 .overlay{
                     Text("社区")
-                        .font(active == .community ? .title3 : .body)
-                        .fontWeight(.black)
+                        .font(active == .community ? .headline : .callout)
+                        .bold()
                         .foregroundStyle(active == .community ? .primary : .secondary)
                         .padding(.vertical, 4)
                 }
@@ -268,8 +268,8 @@ struct MyTabView: View {
                 .foregroundStyle(.clear)
                 .overlay{
                     Text("我")
-                        .font(active == .mine ? .title3 : .body)
-                        .fontWeight(.black)
+                        .font(active == .mine ? .headline : .callout)
+                        .bold()
                         .foregroundStyle(active == .mine ? .primary : .secondary)
                 }
                 .padding(.vertical, 4)
@@ -281,7 +281,6 @@ struct MyTabView: View {
         }
     }
 }
-
 
 #Preview {
     let modelData = ModelData()
