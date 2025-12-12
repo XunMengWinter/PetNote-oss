@@ -14,7 +14,6 @@ struct ChatView: View {
     var body: some View {
         VStack(spacing: 0){
             ScrollViewReader { scrollProxy in
-                
                 ScrollView{
                     VStack(alignment: .leading, spacing: 16) {
                         Text("🤖 Instruction (即AI的人设，以下为interview模式)：")
@@ -70,7 +69,7 @@ struct ChatView: View {
                                     .padding()
                                 Spacer()
                             }
-                            .id("loadingView") // 给每条消息加上唯一 ID
+                            .id("loadingView")
                         }
                     }
                     .padding()
