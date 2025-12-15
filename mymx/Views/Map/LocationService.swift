@@ -28,8 +28,9 @@ struct SearchCompletions: Identifiable {
     var url: URL?
 }
 
+@MainActor
 @Observable
-class LocationService: NSObject, MKLocalSearchCompleterDelegate {
+class LocationService: NSObject, @MainActor  MKLocalSearchCompleterDelegate {
     private let completer: MKLocalSearchCompleter
 
     var completions = [SearchCompletions]()

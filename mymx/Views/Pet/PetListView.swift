@@ -61,9 +61,7 @@ struct PetListView: View {
                                         print("delete \(self.deletePet)")
                                         self.viewModel.deletePet(petId: self.deletePet.id)
                                         if let index = modelData.petList.firstIndex(of: deletePet){
-                                            withAnimation{
-                                                modelData.petList.remove(at: index)
-                                            }
+                                            modelData.petList.remove(at: index)
                                         }
                                         self.deletePet = PetModel()
                                     })

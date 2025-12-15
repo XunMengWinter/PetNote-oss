@@ -19,9 +19,9 @@ struct GoodsModel: Codable, Hashable{
     let stock: Int
     let brand: String?
     
-    var typeModel: GoodsTypeModel{
-        get{
-            return GoodsTypeModel.goodsTypeDict[type] ?? GoodsTypeModel(type: type, name: "unknown")
+    func typeModelAsync() async -> GoodsTypeModel {
+        await MainActor.run {
+            GoodsTypeModel.goodsTypeDict[type] ?? GoodsTypeModel(type: type, name: "unknown")
         }
     }
     
@@ -54,15 +54,11 @@ struct GoodsModel: Codable, Hashable{
         if !link.hasPrefix("cloud"){
             return link
         }
-        
-        do {
-            var arr = link.split(separator: "/")
-            arr[0] = "https:/"
-            arr[1] = arr[1].split(separator: ".")[1] + ".tcb.qcloud.la"
-            let url = arr.joined(separator: "/")
-            return url
-        } catch{
-            return link
-        }
+ 
+        var arr = link.split(separator: "/")
+        arr[0] = "https:/"
+        arr[1] = arr[1].split(separator: ".")[1] + ".tcb.qcloud.la"
+        let url = arr.joined(separator: "/")
+        return url
     }
 }

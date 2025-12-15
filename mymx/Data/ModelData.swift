@@ -10,6 +10,7 @@ import Alamofire
 import WidgetKit
 
 //@Observable
+@MainActor
 class ModelData: ObservableObject{
     
     @Published var city: CityModel = CityModel.default
@@ -73,18 +74,20 @@ class ModelData: ObservableObject{
         AF.request(Urls.GET_PET_LIST, headers: headers)
             .validate()
             .responseDecodable(of: BaseResult<[PetModel]>.self) {response in
-                switch response.result{
-                case .success(let res):
-                    if let pets = res.data{
-                        self.petList = pets
-                        WidgetCenter.shared.reloadAllTimelines()
-                        return
+                Task{ @MainActor in
+                    switch response.result{
+                    case .success(let res):
+                        if let pets = res.data{
+                            self.petList = pets
+                            WidgetCenter.shared.reloadAllTimelines()
+                            return
+                        }
+                    case .failure(let error):
+                        print(error)
                     }
-                case .failure(let error):
-                    print(error)
+                    // 错误在这里
+                    self.petList = []
                 }
-                // 错误在这里
-                self.petList = []
             }
     }
   

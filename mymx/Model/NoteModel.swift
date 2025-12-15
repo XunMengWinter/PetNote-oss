@@ -30,8 +30,8 @@ struct NoteModel: Codable, Equatable, Identifiable{
         }
     }
     
-    func toDict() -> [String: Any]{
-        let petDict: [String: Any] = [
+    func toDict() -> [String: Sendable]{
+        let petDict: [String: Sendable] = [
             "content": content,
             "type": type,
             "images": images,

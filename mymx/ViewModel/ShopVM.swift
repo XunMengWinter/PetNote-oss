@@ -7,6 +7,7 @@
 
 import Foundation
 import Alamofire
+import Combine   // ✅ 必须加
 
 @MainActor
 class ShopVM: ObservableObject{

@@ -26,7 +26,7 @@ struct AddPetView: View {
     
     @StateObject var addPetVM = AddPetVM(isUpdate: false)
     @State private var showAlert = false
-
+    
     var dateRange: ClosedRange<Date>{
         let min = Calendar.current.date(from: DateComponents(year: 1900, month: 1, day: 1))!
         let max = Calendar.current.date(byAdding: .year, value: 1, to: Date())!
@@ -81,6 +81,7 @@ struct AddPetView: View {
                                     .frame(width: 64, height: 64)
                                     .clipShape(RoundedRectangle(cornerRadius: 10))
                             }
+                        
                     }
                                  .onChange(of: photoList, {
                                      fillImages()
@@ -127,7 +128,7 @@ struct AddPetView: View {
         .toolbar{
             NavigationLink("编辑爱宠", destination: {
                 PetListView()
-                .navigationTitle("爱宠列表")
+                    .navigationTitle("爱宠列表")
             })
         }
         .onChange(of: addPetVM.success, {

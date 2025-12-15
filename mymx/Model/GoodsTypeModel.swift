@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct GoodsTypeModel: Codable, Equatable, Identifiable, Hashable{
+@MainActor
+struct GoodsTypeModel: Codable, Equatable, @MainActor Identifiable, Hashable{
     var id: Int{
         get{
             return self.type

@@ -10,6 +10,7 @@ import Combine
 import Alamofire
 import UIKit
 
+@MainActor
 class AddPetVM: ObservableObject {
     private var isUpdate = false
     @Published var error: AFError?
@@ -58,23 +59,25 @@ class AddPetVM: ObservableObject {
         AF.request(self.isUpdate ? Urls.UPDATE_PET : Urls.ADD_PET, method: .post, parameters: ["pet": pet], encoder: JSONParameterEncoder.default, headers: headers)
             .validate()
             .responseDecodable(of: BaseResult<PetModel>.self) { response in
-                print(response)
-                self.loading = false
-                switch response.result {
-                case .success(let res):
-                    // Handle the decoded object
-                    if  let pet = res.data {
-                        self.pet = pet
-                        print(pet)
-                        self.success = true
-                    }else{
-                        self.errorMsg = res.error ?? ""
+                Task{ @MainActor in
+                    print(response)
+                    self.loading = false
+                    switch response.result {
+                    case .success(let res):
+                        // Handle the decoded object
+                        if  let pet = res.data {
+                            self.pet = pet
+                            print(pet)
+                            self.success = true
+                        }else{
+                            self.errorMsg = res.error ?? ""
+                        }
+                    case .failure(let error):
+                        // Handle any errors
+                        self.error = error
+                        self.errorMsg = error.errorDescription ?? "提交遇到了一点小问题，请重试。"
+                        print("Request failed with error: \(error)")
                     }
-                case .failure(let error):
-                    // Handle any errors
-                    self.error = error
-                    self.errorMsg = error.errorDescription ?? "提交遇到了一点小问题，请重试。"
-                    print("Request failed with error: \(error)")
                 }
             }
     }
@@ -103,25 +106,27 @@ class AddPetVM: ObservableObject {
             print("Upload Progress: \(progress.fractionCompleted)")
         }
         .responseString(emptyResponseCodes: [204], completionHandler: {response in
-            switch(response.result){
-            case .success(let res):
-                if(res.isEmpty){
-                    // 上传成功返回空
-                    print("uploadImage success!")
-                    // imageUrl
-                    let imageUrl = tokenData.host + "/" + tokenData.dir + imageName
-                    self.pet.avatar = imageUrl
-                    self.addPetToServer()
-                    return
+            Task{ @MainActor in
+                switch(response.result){
+                case .success(let res):
+                    if(res.isEmpty){
+                        // 上传成功返回空
+                        print("uploadImage success!")
+                        // imageUrl
+                        let imageUrl = tokenData.host + "/" + tokenData.dir + imageName
+                        self.pet.avatar = imageUrl
+                        self.addPetToServer()
+                        return
+                    }
+                    self.errorMsg = "图片上传失败"
+                    print("uploadImage res: \(res)")
+                case .failure(let error):
+                    print(error)
+                    self.errorMsg = error.errorDescription ?? "图片上传失败"
+                    print("uploadImage error: \(error)")
                 }
-                self.errorMsg = "图片上传失败"
-                print("uploadImage res: \(res)")
-            case .failure(let error):
-                print(error)
-                self.errorMsg = error.errorDescription ?? "图片上传失败"
-                print("uploadImage error: \(error)")
+                self.loading = false
             }
-            self.loading = false
         })
     }
     
@@ -134,22 +139,24 @@ class AddPetVM: ObservableObject {
         AF.request(Urls.STS_PET_AVATAR, headers: headers)
             .validate()
             .responseDecodable(of: StsResult.self) { response in
-                print(response)
-                switch response.result {
-                case .success(let res):
-                    // Handle the decoded object
-                    if let sts = res.sts {
-                        self.uploadImage(tokenData: sts, image: image)
-                    }else{
+                Task{ @MainActor in
+                    print(response)
+                    switch response.result {
+                    case .success(let res):
+                        // Handle the decoded object
+                        if let sts = res.sts {
+                            self.uploadImage(tokenData: sts, image: image)
+                        }else{
+                            self.loading = false
+                            self.errorMsg = "STS获取失败"
+                        }
+                    case .failure(let error):
+                        // Handle any errors
+                        self.error = error
+                        self.errorMsg = error.errorDescription ?? "STS获取失败"
+                        print("Request failed with error: \(error)")
                         self.loading = false
-                        self.errorMsg = "STS获取失败"
                     }
-                case .failure(let error):
-                    // Handle any errors
-                    self.error = error
-                    self.errorMsg = error.errorDescription ?? "STS获取失败"
-                    print("Request failed with error: \(error)")
-                    self.loading = false
                 }
             }
     }

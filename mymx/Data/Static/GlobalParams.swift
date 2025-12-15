@@ -6,6 +6,8 @@
 //
 
 import Foundation
+
+@MainActor
 class GlobalParams{
     static var token = ""
     // 有效期时间戳

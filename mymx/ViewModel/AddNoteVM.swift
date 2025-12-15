@@ -37,7 +37,7 @@ class AddNoteVM: ObservableObject{
         print("uploadNote")
         self.progress = 0.9
         note.noteTime = Int(note.noteDate.timeIntervalSince1970)
-        let parameters: [String: Any] = [
+        let parameters: [String: Sendable] = [
             "note": self.note.toDict()
         ]
         print(parameters)
@@ -48,23 +48,25 @@ class AddNoteVM: ObservableObject{
             .validate()
             .responseDecodable(of: BaseResult<NoteModel>.self) { response in
                 print(response)
-                self.loading = false
-                switch response.result {
-                case .success(let res):
-                    // Handle the decoded object
-                    if  let note = res.data {
-                        self.note = note
-                        print(note)
-                        self.progress = 1.0
-                        self.clear()
-                    }else{
-                        self.errorMsg = res.error ?? "发布遇到了一点小问题，请重试。"
+                Task{ @MainActor in
+                    self.loading = false
+                    switch response.result {
+                    case .success(let res):
+                        // Handle the decoded object
+                        if  let note = res.data {
+                            self.note = note
+                            print(note)
+                            self.progress = 1.0
+                            self.clear()
+                        }else{
+                            self.errorMsg = res.error ?? "发布遇到了一点小问题，请重试。"
+                        }
+                    case .failure(let error):
+                        // Handle any errors
+                        self.error = error
+                        self.errorMsg = error.errorDescription ?? "发布遇到了一点小问题，请重试。"
+                        print("Request failed with error: \(error)")
                     }
-                case .failure(let error):
-                    // Handle any errors
-                    self.error = error
-                    self.errorMsg = error.errorDescription ?? "发布遇到了一点小问题，请重试。"
-                    print("Request failed with error: \(error)")
                 }
             }
     }
@@ -121,31 +123,35 @@ class AddNoteVM: ObservableObject{
                 multipartFormData.append(imageData, withName: "file",fileName: imageName, mimeType: "image/jpeg")
             }, to: tokenData.host, method: .post, headers: headers)
             .uploadProgress { progress in
-                print("Upload Progress: \(progress.fractionCompleted)")
-                if(self.imageList.count == 1){
-                    self.progress = 0.1 + progress.fractionCompleted * 0.8
+                Task{ @MainActor in
+                    print("Upload Progress: \(progress.fractionCompleted)")
+                    if(self.imageList.count == 1){
+                        self.progress = 0.1 + progress.fractionCompleted * 0.8
+                    }
                 }
             }
             .responseString(emptyResponseCodes: [204], completionHandler: {response in
-                switch(response.result){
-                case .success(let res):
-                    if(res.isEmpty){
-                        // 上传成功返回空
-                        print("uploadImage success! \(imageIndex)")
-                        // imageUrl
-                        let imageUrl = tokenData.host + "/" + tokenData.dir + imageName
-                        imageUrls[imageIndex] = imageUrl
-                        self.imageUrlDict[image] = imageUrl
-                        if(self.imageList.count > 1){
-                            self.progress += (0.8 / Double(self.imageList.count))
+                Task{ @MainActor in
+                    switch(response.result){
+                    case .success(let res):
+                        if(res.isEmpty){
+                            // 上传成功返回空
+                            print("uploadImage success! \(imageIndex)")
+                            // imageUrl
+                            let imageUrl = tokenData.host + "/" + tokenData.dir + imageName
+                            imageUrls[imageIndex] = imageUrl
+                            self.imageUrlDict[image] = imageUrl
+                            if(self.imageList.count > 1){
+                                self.progress += (0.8 / Double(self.imageList.count))
+                            }
                         }
+                        print("uploadImage res: \(res)")
+                    case .failure(let error):
+                        print(error)
+                        print("uploadImage error: \(error)")
                     }
-                    print("uploadImage res: \(res)")
-                case .failure(let error):
-                    print(error)
-                    print("uploadImage error: \(error)")
+                    dispatchGroup.leave()
                 }
-                dispatchGroup.leave()
             })
         }
         dispatchGroup.notify(queue: .main) {
@@ -162,40 +168,42 @@ class AddNoteVM: ObservableObject{
         AF.request(Urls.STS_PET_NOTE, headers: headers)
             .validate()
             .responseDecodable(of: StsResult.self) { response in
-                print(response)
-                switch response.result {
-                case .success(let res):
-                    // Handle the decoded object
-                    if let sts = res.sts {
-                        self.progress = 0.1
-                        self.uploadImages(tokenData: sts) { imageUrls in
-                            print("Uploaded image URLs: \(imageUrls)")
-                            // Use the imageUrls as needed
-                            var allImageUrls: [String] = []
-                            for image in self.imageList{
-                                if let imageUrl = self.imageUrlDict[image]{
-                                    allImageUrls.append(imageUrl)
-                                } else {
-                                    print("\(image) upload fail.")
-                                    self.loading = false
-                                    self.errorMsg = "图片上传失败，请重试"
-                                    return
+                Task{ @MainActor in
+                    print(response)
+                    switch response.result {
+                    case .success(let res):
+                        // Handle the decoded object
+                        if let sts = res.sts {
+                            self.progress = 0.1
+                            self.uploadImages(tokenData: sts) { imageUrls in
+                                print("Uploaded image URLs: \(imageUrls)")
+                                // Use the imageUrls as needed
+                                var allImageUrls: [String] = []
+                                for image in self.imageList{
+                                    if let imageUrl = self.imageUrlDict[image]{
+                                        allImageUrls.append(imageUrl)
+                                    } else {
+                                        print("\(image) upload fail.")
+                                        self.loading = false
+                                        self.errorMsg = "图片上传失败，请重试"
+                                        return
+                                    }
                                 }
+                                self.note.images = allImageUrls
+                                self.uploadNote()
+                                return
                             }
-                            self.note.images = allImageUrls
-                            self.uploadNote()
-                            return
+                        }else{
+                            self.loading = false
+                            self.errorMsg = "登录信息已过期，请重新登录"
                         }
-                    }else{
+                    case .failure(let error):
+                        // Handle any errors
+                        self.error = error
+                        print("Request failed with error: \(error)")
                         self.loading = false
-                        self.errorMsg = "登录信息已过期，请重新登录"
+                        self.errorMsg = error.errorDescription ?? "获取STS失败"
                     }
-                case .failure(let error):
-                    // Handle any errors
-                    self.error = error
-                    print("Request failed with error: \(error)")
-                    self.loading = false
-                    self.errorMsg = error.errorDescription ?? "获取STS失败"
                 }
             }
     }

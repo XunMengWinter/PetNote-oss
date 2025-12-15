@@ -20,23 +20,23 @@ struct ImageCropper: UIViewControllerRepresentable {
     @Binding var presetFixedRatioType: Mantis.PresetFixedRatioType
     @Binding var type: ImageCropperType
     
-    @Environment(\.presentationMode) var presentationMode
-    
-    class Coordinator: CropViewControllerDelegate {
+    @Environment(\.dismiss) private var dismiss
+
+    class Coordinator: @MainActor CropViewControllerDelegate {
         var parent: ImageCropper
         
         init(_ parent: ImageCropper) {
             self.parent = parent
         }
         
-        func cropViewControllerDidCrop(_ cropViewController: Mantis.CropViewController, cropped: UIImage, transformation: Transformation, cropInfo: CropInfo) {
+        @MainActor func cropViewControllerDidCrop(_ cropViewController: Mantis.CropViewController, cropped: UIImage, transformation: Transformation, cropInfo: CropInfo) {
             parent.image = cropped
             print("transformation is \(transformation)")
-            parent.presentationMode.wrappedValue.dismiss()
+            parent.dismiss()
         }
         
-        func cropViewControllerDidCancel(_ cropViewController: Mantis.CropViewController, original: UIImage) {
-            parent.presentationMode.wrappedValue.dismiss()
+        @MainActor func cropViewControllerDidCancel(_ cropViewController: Mantis.CropViewController, original: UIImage) {
+            parent.dismiss()
         }
     }
     

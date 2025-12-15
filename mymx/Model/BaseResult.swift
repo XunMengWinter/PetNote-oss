@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BaseResult<T: Codable>: Codable{
+struct BaseResult<T: Codable & Sendable>: Codable, Sendable{
     var data: T?
     var error: String?
     var success: Bool?

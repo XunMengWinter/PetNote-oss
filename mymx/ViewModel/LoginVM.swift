@@ -9,6 +9,7 @@ import Foundation
 import Combine
 import Alamofire
 
+@MainActor
 class LoginVM: ObservableObject {
     private var modelData: ModelData?
     @Published var error: AFError?
@@ -34,29 +35,31 @@ class LoginVM: ObservableObject {
         isSendAuth = false
         errorMsg = ""
         // 使用 Alamofire 进行 GET 请求
-        let parameters: [String: Any] = [
+        let parameters: [String: Sendable] = [
             "mail": mail,
         ]
 
         AF.request(Urls.GET_AUTH_CODE, method: .post, parameters: parameters)
             .validate()
             .responseDecodable(of: SmsResult.self) { response in
-                print(response)
-                self.smsLoading = false
-                switch response.result{
-                case .success(let res):
-                    if(res.success){
-                        self.isSendAuth = true
-                    }else if let msg = res.data?.message{
-                        self.errorMsg = msg
-                    }else if let errorMsg = res.error{
-                        self.errorMsg = errorMsg
+                Task{ @MainActor in
+                    print(response)
+                    self.smsLoading = false
+                    switch response.result{
+                    case .success(let res):
+                        if(res.success){
+                            self.isSendAuth = true
+                        }else if let msg = res.data?.message{
+                            self.errorMsg = msg
+                        }else if let errorMsg = res.error{
+                            self.errorMsg = errorMsg
+                        }
+                    case .failure(let error):
+                        self.error = error
+                        self.errorMsg = error.errorDescription ?? "获取验证码遇到了一点小问题，请重试。"
+                        print("Request failed with error: \(error)")
+                        break
                     }
-                case .failure(let error):
-                    self.error = error
-                    self.errorMsg = error.errorDescription ?? "获取验证码遇到了一点小问题，请重试。"
-                    print("Request failed with error: \(error)")
-                    break
                 }
             }
     }
@@ -67,7 +70,7 @@ class LoginVM: ObservableObject {
         // 使用 Alamofire 进行 GET 请求
         loading = true
         self.errorMsg = ""
-        let parameters: [String: Any] = [
+        let parameters: [String: Sendable] = [
             "mail": mail,
             "authCode": authCode
         ]
@@ -75,23 +78,25 @@ class LoginVM: ObservableObject {
         AF.request(Urls.LOGIN, method: .post, parameters: parameters)
             .validate()
             .responseDecodable(of: LoginResult.self) { response in
-                print(response)
-                self.loading = false
-                switch response.result {
-                case .success(let res):
-                    // 将token与token有效期保存至静态常量
-                    if !res.token.isEmpty{
-                        GlobalParams.token = res.token
-                        GlobalParams.tokenExpires = res.tokenExpires
-                        
-                        self.modelData?.saveLoginData(res: res)
-                    }else if let errorMsg = res.error{
-                        self.errorMsg = errorMsg
+                Task{ @MainActor in
+                    print(response)
+                    self.loading = false
+                    switch response.result {
+                    case .success(let res):
+                        // 将token与token有效期保存至静态常量
+                        if !res.token.isEmpty{
+                            GlobalParams.token = res.token
+                            GlobalParams.tokenExpires = res.tokenExpires
+                            
+                            self.modelData?.saveLoginData(res: res)
+                        }else if let errorMsg = res.error{
+                            self.errorMsg = errorMsg
+                        }
+                    case .failure(let error):
+                        self.error = error
+                        self.errorMsg = error.errorDescription ?? "登录遇到了一点小问题，请重试。"
+                        print("Request failed with error: \(error)")
                     }
-                case .failure(let error):
-                    self.error = error
-                    self.errorMsg = error.errorDescription ?? "登录遇到了一点小问题，请重试。"
-                    print("Request failed with error: \(error)")
                 }
                 
             }

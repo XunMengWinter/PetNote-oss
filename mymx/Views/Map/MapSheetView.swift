@@ -15,7 +15,7 @@ struct MapSheetView: View {
                     .autocorrectionDisabled()
                     // 2
                     .onSubmit {
-                        Task {
+                        Task { @MainActor in
                             searchResults = (try? await locationService.search(with: search)) ?? []
                         }
                     }

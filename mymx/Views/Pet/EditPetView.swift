@@ -14,7 +14,7 @@ struct EditPetView: View {
     @Environment(\.presentationMode) var presentationMode
     
     @EnvironmentObject var modelData: ModelData
-
+    
     @State var petInfo: PetModel
     @State private var selectedAvatar: UIImage? = nil
     @State private var croppedAvatar: UIImage? = nil
@@ -143,7 +143,7 @@ struct EditPetView: View {
         })
         .navigationBarBackButtonHidden()
         .onChange(of: addPetVM.success, {
-//            modelData.getPetList()
+            //            modelData.getPetList()
             presentationMode.wrappedValue.dismiss()
         })
         .onChange(of: addPetVM.errorMsg, {

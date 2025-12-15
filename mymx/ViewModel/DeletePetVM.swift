@@ -8,6 +8,7 @@
 import Foundation
 import Alamofire
 
+@MainActor
 class DeletePetVM: ObservableObject{
 
     func deletePet(petId: Int){
@@ -15,7 +16,7 @@ class DeletePetVM: ObservableObject{
         let headers: HTTPHeaders = [
             "Authentication": "Bearer " + GlobalParams.token
         ]
-        let parameters: [String: Any] = [
+        let parameters: [String: Sendable] = [
             "petId": petId
         ]
         AF.request(Urls.DELETE_PET, method: .post, parameters: parameters, headers: headers)

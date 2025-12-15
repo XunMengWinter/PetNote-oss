@@ -1,5 +1,5 @@
 import SwiftUI
-import MapKit
+@preconcurrency import MapKit
 
 struct SearchableMap: View {
     @State private var position = MapCameraPosition.automatic

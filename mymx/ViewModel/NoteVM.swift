@@ -23,17 +23,19 @@ class NoteVM: ObservableObject{
         AF.request(Urls.GET_NOTE_LIST, headers: headers)
             .validate()
             .responseDecodable(of: BaseResult<[NoteModel]>.self) {response in
-                switch response.result{
-                case .success(let res):
-                    if let notes = res.data{
-                        self.noteList = notes
-                        return
+                Task{ @MainActor in
+                    switch response.result{
+                    case .success(let res):
+                        if let notes = res.data{
+                            self.noteList = notes
+                            return
+                        }
+                    case .failure(let error):
+                        print(error)
                     }
-                case .failure(let error):
-                    print(error)
+                    // 错误在这里
+                    self.noteList = []
                 }
-                // 错误在这里
-                self.noteList = []
             }
     }
     
@@ -44,7 +46,7 @@ class NoteVM: ObservableObject{
         let headers: HTTPHeaders = [
             "Authentication": "Bearer " + GlobalParams.token
         ]
-        let parameters: [String: Any] = [
+        let parameters: [String: Sendable] = [
             "noteId": noteId
         ]
         AF.request(Urls.DELETE_NOTE, method: .post, parameters: parameters, headers: headers)

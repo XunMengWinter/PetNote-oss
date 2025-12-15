@@ -8,6 +8,7 @@
 import Foundation
 import Alamofire
 
+@MainActor
 class FactsVM: ObservableObject{
     var factList: [FactModel] = []
     @Published var loading = true
@@ -25,17 +26,19 @@ class FactsVM: ObservableObject{
         fetchRandomImage()
         AF.request(Urls.CAT_FACT)
             .responseDecodable(of: FactModel.self) { response in
-                switch response.result {
-                case .success(let factModel):
-                    self.factList.append(factModel)
-                    if(self.loading){
-                        self.loading = false
-                        self.factIndex += 1
-                        self.factModel = self.factList[self.factIndex]
-                        self.refreshImage()
+                Task{ @MainActor in
+                    switch response.result {
+                    case .success(let factModel):
+                        self.factList.append(factModel)
+                        if(self.loading){
+                            self.loading = false
+                            self.factIndex += 1
+                            self.factModel = self.factList[self.factIndex]
+                            self.refreshImage()
+                        }
+                    case .failure(let error):
+                        print("Request failed with error: \(error)")
                     }
-                case .failure(let error):
-                    print("Request failed with error: \(error)")
                 }
             }
     }
@@ -49,14 +52,16 @@ class FactsVM: ObservableObject{
         AF.request(Urls.GET_RANDOM_IMAGE)
             .validate()
             .responseDecodable(of: ImageUrlModel.self) { response in
-                switch response.result {
-                case .success(let data):
-                    if let imageUrl = data.imageUrl{
-                        self.tempImages.append(imageUrl)
-                        self.refreshImage()
+                Task{ @MainActor in
+                    switch response.result {
+                    case .success(let data):
+                        if let imageUrl = data.imageUrl{
+                            self.tempImages.append(imageUrl)
+                            self.refreshImage()
+                        }
+                    case .failure(let error):
+                        print("Request failed with error: \(error)")
                     }
-                case .failure(let error):
-                    print("Request failed with error: \(error)")
                 }
             }
     }

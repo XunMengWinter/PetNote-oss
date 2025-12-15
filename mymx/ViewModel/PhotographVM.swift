@@ -8,6 +8,7 @@
 import Foundation
 import Alamofire
 
+@MainActor
 class PhotographVM: ObservableObject {
     @Published var photoList = [Photo]()
     @Published var error: AFError?
@@ -38,21 +39,22 @@ class PhotographVM: ObservableObject {
         AF.request(url)
             .validate()
             .responseDecodable(of: PhotoResult.self) { response in
-                switch response.result {
-                case .success(let photoResult):
-                    // Handle the decoded object
-                    let newList = photoResult.feedList.map{self.feed2Photo(feed:$0)}
-                    if(photoResult.more){
-                        self.next = photoResult.next
+                Task{ @MainActor in
+                    switch response.result {
+                    case .success(let photoResult):
+                        // Handle the decoded object
+                        let newList = photoResult.feedList.map{self.feed2Photo(feed:$0)}
+                        if(photoResult.more){
+                            self.next = photoResult.next
+                        }
+                        self.photoList.append(contentsOf: newList)
+                    case .failure(let error):
+                        // Handle any errors
+                        self.error = error
+                        self.page -= 1
+                        print("Request failed with error: \(error)")
                     }
-                    self.photoList.append(contentsOf: newList)
-                case .failure(let error):
-                    // Handle any errors
-                    self.error = error
-                    self.page -= 1
-                    print("Request failed with error: \(error)")
                 }
-                
             }
     }
 

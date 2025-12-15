@@ -8,6 +8,7 @@
 import Foundation
 import Alamofire
 
+@MainActor
 class TabooVM: ObservableObject{
     
     @Published var foodTaboo: TabooModel?
@@ -26,12 +27,14 @@ class TabooVM: ObservableObject{
         AF.request(Urls.SEARCH_TABOO, method: .post, parameters: parameters, headers: headers)
             .validate()
             .responseDecodable(of: BaseResult<TabooModel>.self){ response in
-                self.isSearching = false
-                switch response.result {
-                case .success(let res):
-                    self.foodTaboo = res.data
-                case .failure(let error):
-                    print("Error: \(error)")
+                Task{ @MainActor in
+                    self.isSearching = false
+                    switch response.result {
+                    case .success(let res):
+                        self.foodTaboo = res.data
+                    case .failure(let error):
+                        print("Error: \(error)")
+                    }
                 }
             }
     }
