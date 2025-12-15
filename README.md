@@ -10,6 +10,9 @@ https://github.com/XunMengWinter/fc-mymx-oss-pub
 笔记（需要JWT验证）
 https://github.com/XunMengWinter/fc-mymx-oss
 
+AI（需要JWT验证）
+https://github.com/XunMengWinter/AIChat-QianFan-JS
+
 ## Demo
 [![Click to watch](https://mymx2-oss.oss-cn-shanghai.aliyuncs.com/doc/img-aichongshe-oss-demo.jpg)](https://www.bilibili.com/video/BV1h7eFecEEt/?share_source=copy_web&vd_source=f37f4981955278d3532660e4934b6ad2)
 Click to watch
@@ -36,7 +39,7 @@ Click to watch
 - [x] MapKit add cover
 - [x] MapKit Search
 - [x] Widget
-- [ ] AI Agent
+- [x] AI Agent
 
 
 
