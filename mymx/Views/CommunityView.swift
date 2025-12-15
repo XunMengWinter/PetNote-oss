@@ -76,13 +76,9 @@ struct CommunityView: View {
                 }
                 .frame(maxWidth: .infinity)
             }
+            .navigationTitle("社区")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar{
-                ToolbarItem(placement: .topBarLeading) {
-                    Text("社区")
-                        .font(.title)
-                        .bold()
-                }
                 ToolbarItem(placement: .topBarTrailing){
                     Button{
                     } label: {

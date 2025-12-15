@@ -55,35 +55,34 @@ struct NoteView: View {
                 }
             }
             .toolbar{
-                ToolbarItem(placement: .topBarLeading, content: {
-                    ScrollView(.horizontal, showsIndicators: false){
-                        HStack(alignment:.center ,spacing: 10){
-                            Text(petAll.name)
-                                .font(petAll.id == self.selectedPet ? .title2 : .subheadline)
+                ToolbarItemGroup(placement: .topBarLeading, content: {
+                    HStack(alignment:.center ,spacing: 10){
+                        Text(petAll.name)
+                            .font(petAll.id == self.selectedPet ? .title2 : .subheadline)
+                            .fontWeight(.medium)
+                            .animation(.smooth)
+                            .onTapGesture {
+                                withAnimation(){
+                                    self.selectedPet = petAll.id
+                                    filterNotes()
+                                }
+                            }
+                        ForEach(modelData.petList) { pet in
+                            Text(pet.name)
+                                .font(pet.id == self.selectedPet ? .title2 : .subheadline)
                                 .fontWeight(.medium)
                                 .animation(.smooth)
                                 .onTapGesture {
                                     withAnimation(){
-                                        self.selectedPet = petAll.id
+                                        self.selectedPet = pet.id
                                         filterNotes()
                                     }
                                 }
-                            ForEach(modelData.petList) { pet in
-                                Text(pet.name)
-                                    .font(pet.id == self.selectedPet ? .title2 : .subheadline)
-                                    .fontWeight(.medium)
-                                    .animation(.smooth)
-                                    .onTapGesture {
-                                        withAnimation(){
-                                            self.selectedPet = pet.id
-                                            filterNotes()
-                                        }
-                                    }
-                            }
                         }
-                        
-                    }.frame(maxWidth: self.screenWidth * 0.8)
-                    
+                    } 
+                    .padding(.horizontal)
+                    .fixedSize(horizontal: true, vertical: false)
+ 
                 })
                 
                 ToolbarItem(placement: .topBarTrailing, content: {
