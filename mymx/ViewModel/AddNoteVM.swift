@@ -89,15 +89,10 @@ class AddNoteVM: ObservableObject{
     }
     
     
-    private func uploadImages(tokenData: StsModel, completion: @escaping ([String]) -> Void){
+    private func uploadImages(tokenData: StsModel, completion: @escaping () -> Void){
         let dispatchGroup = DispatchGroup()
-        var index = 0
         let timeStamp = Int(Date().timeIntervalSince1970)
-        var imageUrls: [String] = []
-        for image in imageList{
-            let imageIndex = index
-            index += 1
-            imageUrls.append("")
+        for (imageIndex, image) in imageList.enumerated(){
             if let url = imageUrlDict[image]{
                 print("Image \(imageIndex) has uploaded: \(url)")
                 continue
@@ -139,7 +134,6 @@ class AddNoteVM: ObservableObject{
                             print("uploadImage success! \(imageIndex)")
                             // imageUrl
                             let imageUrl = tokenData.host + "/" + tokenData.dir + imageName
-                            imageUrls[imageIndex] = imageUrl
                             self.imageUrlDict[image] = imageUrl
                             if(self.imageList.count > 1){
                                 self.progress += (0.8 / Double(self.imageList.count))
@@ -155,7 +149,7 @@ class AddNoteVM: ObservableObject{
             })
         }
         dispatchGroup.notify(queue: .main) {
-            completion(imageUrls)
+            completion()
         }
     }
     
@@ -175,9 +169,10 @@ class AddNoteVM: ObservableObject{
                         // Handle the decoded object
                         if let sts = res.sts {
                             self.progress = 0.1
-                            self.uploadImages(tokenData: sts) { imageUrls in
-                                print("Uploaded image URLs: \(imageUrls)")
-                                // Use the imageUrls as needed
+                            self.uploadImages(tokenData: sts) {
+                                let uploadedImageUrls = self.imageList.compactMap { self.imageUrlDict[$0] }
+                                print("Uploaded image URLs: \(uploadedImageUrls)")
+                                // Validate the completed uploads in the original image order.
                                 var allImageUrls: [String] = []
                                 for image in self.imageList{
                                     if let imageUrl = self.imageUrlDict[image]{

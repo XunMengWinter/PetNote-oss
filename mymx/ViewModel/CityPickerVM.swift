@@ -38,7 +38,7 @@ class CityPickerVM: ObservableObject {
         let str = cityRow.replacingOccurrences(of: ", ", with: " - ")
         let sps = str.split(separator: ",")
         let text = sps[1] + sps[2] + ", " + sps[6] + sps[7] + ", " + sps[8] + sps[9]
-        return text
+        return String(text)
     }
     
     func getCityModel(cityRow: String) -> CityModel{
